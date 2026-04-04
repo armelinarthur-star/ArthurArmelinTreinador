@@ -53,7 +53,7 @@ export default function AthleteLoginPage() {
 
     if (profile?.role !== "athlete") {
       await supabase.auth.signOut();
-      setError("Esta área é exclusiva para alunos");
+      setError("Esta área é exclusiva para alunos(as)");
       setIsLoading(false);
       return;
     }

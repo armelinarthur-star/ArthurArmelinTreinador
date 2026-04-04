@@ -27,16 +27,16 @@ export default function Home() {
         {/* Buttons */}
         <div className="mt-4 flex w-full max-w-[320px] flex-col gap-3">
           <Link
-            href="/coach/login"
+            href="/athlete/onboarding"
             className="flex h-[52px] items-center justify-center rounded-input bg-brand-red px-8 text-[15px] font-semibold text-white transition-all duration-200 hover:bg-brand-red-dark hover:scale-[0.98]"
           >
-            Acessar como Treinador
+            Acessar como Aluno(a)
           </Link>
           <Link
-            href="/athlete/login"
+            href="/coach/login"
             className="flex h-[52px] items-center justify-center rounded-input border border-white/20 px-8 text-[15px] font-semibold text-white transition-all duration-200 hover:border-white/40 hover:scale-[0.98]"
           >
-            Acessar como Aluno
+            Acessar como Treinador
           </Link>
         </div>
       </div>

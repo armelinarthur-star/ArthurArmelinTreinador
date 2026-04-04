@@ -69,7 +69,7 @@ export default function AthletesPage() {
       {/* Header */}
       <div className="mb-6 flex items-center justify-between">
         <h1 className="text-xl font-semibold text-content-primary">
-          Meus Alunos
+          Meus Alunos(as)
         </h1>
         {profile && <InviteDialog coachId={profile.id} />}
       </div>
@@ -127,7 +127,7 @@ export default function AthletesPage() {
               coachId={profile.id}
               trigger={
                 <Button className="mt-2 gap-2 rounded-input bg-brand-red text-white hover:bg-brand-red-dark">
-                  Convidar Aluno
+                  Convidar Aluno(a)
                 </Button>
               }
             />

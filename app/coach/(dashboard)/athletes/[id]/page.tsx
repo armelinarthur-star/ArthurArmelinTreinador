@@ -89,7 +89,7 @@ export default function AthleteProfilePage() {
   if (!data) {
     return (
       <div className="flex flex-1 items-center justify-center">
-        <p className="text-content-secondary">Aluno não encontrado.</p>
+        <p className="text-content-secondary">Aluno(a) não encontrado(a).</p>
       </div>
     );
   }

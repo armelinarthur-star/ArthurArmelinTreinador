@@ -180,7 +180,7 @@ export default function NewWorkoutPage() {
           </div>
 
           <div className="space-y-2">
-            <label className="text-sm text-content-secondary">Aluno *</label>
+            <label className="text-sm text-content-secondary">Aluno(a)(a) *</label>
             <Select value={athleteId} onValueChange={(v) => setAthleteId(v ?? "")}>
               <SelectTrigger className="w-full border-line-default bg-bg-elevated text-content-primary">
                 <SelectValue placeholder="Selecionar aluno" />
@@ -338,7 +338,7 @@ export default function NewWorkoutPage() {
             </div>
 
             <div className="grid grid-cols-2 gap-y-2 text-xs">
-              <span className="text-content-secondary">Aluno</span>
+              <span className="text-content-secondary">Aluno(a)</span>
               <span className="text-content-primary">
                 {athletes.find((a) => a.id === athleteId)?.full_name ?? "—"}
               </span>

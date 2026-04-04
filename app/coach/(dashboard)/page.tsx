@@ -128,7 +128,7 @@ export default function CoachDashboardPage() {
       <section className="mb-8">
         <div className="mb-4 flex items-center justify-between">
           <h2 className="text-base font-semibold text-content-primary">
-            Alunos Recentes
+            Alunos(as) Recentes
           </h2>
           <Link
             href="/coach/athletes"

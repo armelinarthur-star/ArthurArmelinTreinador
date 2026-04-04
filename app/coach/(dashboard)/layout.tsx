@@ -15,7 +15,7 @@ import {
 
 const navItems = [
   { label: "Painel", href: "/coach", icon: LayoutDashboard },
-  { label: "Alunos", href: "/coach/athletes", icon: Users },
+  { label: "Alunos(as)", href: "/coach/athletes", icon: Users },
   { label: "Treinos", href: "/coach/workouts", icon: Dumbbell },
   { label: "Exercícios", href: "/coach/exercises", icon: BookOpen },
   { label: "Progresso", href: "/coach/progress", icon: TrendingUp },

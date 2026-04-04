@@ -56,7 +56,7 @@ export function InviteDialog({ coachId, trigger }: InviteDialogProps) {
           trigger ?? (
             <Button className="gap-2 rounded-input bg-brand-red text-white hover:bg-brand-red-dark">
               <UserPlus className="size-4" />
-              Convidar Aluno
+              Convidar Aluno(a)
             </Button>
           )
         }
@@ -64,7 +64,7 @@ export function InviteDialog({ coachId, trigger }: InviteDialogProps) {
       <DialogContent className="border-line-subtle bg-bg-surface text-content-primary sm:max-w-[440px]">
         <DialogHeader>
           <DialogTitle className="text-content-primary">
-            Convidar Aluno
+            Convidar Aluno(a)
           </DialogTitle>
         </DialogHeader>
 
