@@ -169,6 +169,46 @@ export async function getAthleteCoach(athleteId: string) {
   return data?.coach ?? null;
 }
 
+export async function getAthleteProfileData(athleteId: string) {
+  const supabase = await createClient();
+
+  const [profileRes, anamnesisRes, streakRes, lastWorkoutRes] =
+    await Promise.all([
+      supabase
+        .from("profiles")
+        .select("id, full_name, email, avatar_url, phone")
+        .eq("id", athleteId)
+        .single(),
+      supabase
+        .from("athlete_anamnesis")
+        .select("primary_goal, days_per_week")
+        .eq("athlete_id", athleteId)
+        .order("created_at", { ascending: false })
+        .limit(1)
+        .single(),
+      supabase
+        .from("streaks")
+        .select("current_streak, longest_streak")
+        .eq("athlete_id", athleteId)
+        .single(),
+      supabase
+        .from("workout_logs")
+        .select("completed_at")
+        .eq("athlete_id", athleteId)
+        .eq("status", "completed")
+        .order("completed_at", { ascending: false })
+        .limit(1)
+        .single(),
+    ]);
+
+  return {
+    profile: profileRes.data,
+    anamnesis: anamnesisRes.data,
+    streak: streakRes.data ?? { current_streak: 0, longest_streak: 0 },
+    lastWorkoutDate: lastWorkoutRes.data?.completed_at ?? null,
+  };
+}
+
 export async function updateAthleteProfile(
   athleteId: string,
   updates: { full_name?: string; phone?: string | null }

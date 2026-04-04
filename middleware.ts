@@ -9,7 +9,8 @@ export async function middleware(request: NextRequest) {
   // Public routes and invite routes — no auth needed
   if (
     PUBLIC_ROUTES.includes(pathname) ||
-    pathname.startsWith("/invite")
+    pathname.startsWith("/invite") ||
+    pathname.startsWith("/legal")
   ) {
     const { supabaseResponse } = await updateSession(request);
     return supabaseResponse;
