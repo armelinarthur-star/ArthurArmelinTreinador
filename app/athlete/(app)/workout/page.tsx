@@ -4,6 +4,8 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useAuth } from "@/hooks/useAuth";
 import { getAthleteWorkouts } from "@/app/actions/athlete";
+import { getAthleteVolumeAnalysis } from "@/app/actions/workouts";
+import { VolumeChart } from "@/components/charts/VolumeChart";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Badge } from "@/components/ui/badge";
 import { Dumbbell, ChevronRight } from "lucide-react";
@@ -45,6 +47,7 @@ const statusConfig: Record<string, { label: string; border: string; badge: strin
 export default function AthleteWorkoutsPage() {
   const { profile, isLoading: authLoading } = useAuth();
   const [workouts, setWorkouts] = useState<WorkoutRow[]>([]);
+  const [volumeData, setVolumeData] = useState<{ muscle_group: string; sets: number }[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [tab, setTab] = useState<TabValue>("week");
 
@@ -53,8 +56,12 @@ export default function AthleteWorkoutsPage() {
 
     async function load() {
       setIsLoading(true);
-      const data = await getAthleteWorkouts(profile!.id);
+      const [data, volume] = await Promise.all([
+        getAthleteWorkouts(profile!.id),
+        getAthleteVolumeAnalysis(profile!.id),
+      ]);
       setWorkouts(data as WorkoutRow[]);
+      setVolumeData(volume);
       setIsLoading(false);
     }
 
@@ -158,6 +165,13 @@ export default function AthleteWorkoutsPage() {
               </Link>
             );
           })}
+        </div>
+      )}
+
+      {/* Volume Chart */}
+      {!loading && volumeData.length > 0 && (
+        <div className="mt-6">
+          <VolumeChart data={volumeData} title="Meu Volume Semanal" />
         </div>
       )}
     </div>

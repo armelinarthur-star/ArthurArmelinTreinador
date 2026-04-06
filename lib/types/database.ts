@@ -13,6 +13,9 @@ export type MuscleGroup =
   | "triceps"
   | "legs"
   | "glutes"
+  | "quadriceps"
+  | "hamstrings"
+  | "calves"
   | "abs"
   | "full_body";
 export type EquipmentType =
@@ -66,6 +69,13 @@ export interface Exercise {
   created_by: string | null;
   is_custom: boolean;
   created_at: string;
+}
+
+export interface ExerciseMuscleGroup {
+  id: string;
+  exercise_id: string;
+  muscle_group: MuscleGroup;
+  set_weight: number; // 0.5–1.0
 }
 
 export interface WorkoutTemplate {

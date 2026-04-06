@@ -3,7 +3,9 @@
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import { getAthleteById, getAthleteCheckins } from "@/app/actions/athletes";
+import { getAthleteVolumeAnalysis } from "@/app/actions/workouts";
 import { getInitials, timeAgo } from "@/lib/utils/greeting";
+import { VolumeChart } from "@/components/charts/VolumeChart";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
@@ -49,16 +51,19 @@ export default function AthleteProfilePage() {
 
   const [data, setData] = useState<AthleteData | null>(null);
   const [checkins, setCheckins] = useState<WeeklyCheckin[]>([]);
+  const [volumeData, setVolumeData] = useState<{ muscle_group: string; sets: number }[]>([]);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     async function load() {
-      const [athleteData, checkinsData] = await Promise.all([
+      const [athleteData, checkinsData, volume] = await Promise.all([
         getAthleteById(athleteId),
         getAthleteCheckins(athleteId),
+        getAthleteVolumeAnalysis(athleteId),
       ]);
       setData(athleteData);
       setCheckins(checkinsData);
+      setVolumeData(volume);
       setIsLoading(false);
     }
 
@@ -242,10 +247,7 @@ export default function AthleteProfilePage() {
 
         {/* Progress Tab */}
         <TabsContent value="progress">
-          <div className="rounded-card border border-line-subtle bg-bg-surface p-8 text-center">
-            <p className="text-sm text-content-secondary">Em breve</p>
-            <div className="mx-auto mt-3 h-[2px] w-8 bg-brand-red opacity-50" />
-          </div>
+          <VolumeChart data={volumeData} title="Volume por Grupo Muscular" />
         </TabsContent>
       </Tabs>
     </div>

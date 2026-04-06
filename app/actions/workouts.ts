@@ -1,7 +1,7 @@
 "use server";
 
 import { createClient } from "@/lib/supabase/server";
-import type { MuscleGroup } from "@/lib/types/database";
+import type { MuscleGroup, ExerciseMuscleGroup } from "@/lib/types/database";
 
 export interface WorkoutExerciseInput {
   exercise_id: string;
@@ -261,4 +261,128 @@ export async function createCustomExercise(
 
   if (error) throw new Error(error.message);
   return exercise;
+}
+
+// --- Exercise editing & muscle group management ---
+
+export async function updateExercise(
+  exerciseId: string,
+  data: {
+    name: string;
+    muscle_group: MuscleGroup;
+    equipment: string;
+    instructions: string | null;
+    video_url: string | null;
+  }
+) {
+  const supabase = await createClient();
+
+  const { error } = await supabase
+    .from("exercise_library")
+    .update(data)
+    .eq("id", exerciseId);
+
+  if (error) throw new Error(error.message);
+}
+
+export async function getExerciseMuscleGroups(exerciseId: string) {
+  const supabase = await createClient();
+
+  const { data } = await supabase
+    .from("exercise_muscle_groups")
+    .select("*")
+    .eq("exercise_id", exerciseId)
+    .order("set_weight", { ascending: false });
+
+  return (data ?? []) as ExerciseMuscleGroup[];
+}
+
+export async function upsertExerciseMuscleGroups(
+  exerciseId: string,
+  groups: { muscle_group: MuscleGroup; set_weight: number }[]
+) {
+  const supabase = await createClient();
+
+  // Delete existing
+  await supabase
+    .from("exercise_muscle_groups")
+    .delete()
+    .eq("exercise_id", exerciseId);
+
+  // Insert new
+  if (groups.length > 0) {
+    const rows = groups.map((g) => ({
+      exercise_id: exerciseId,
+      muscle_group: g.muscle_group,
+      set_weight: g.set_weight,
+    }));
+
+    const { error } = await supabase
+      .from("exercise_muscle_groups")
+      .insert(rows);
+
+    if (error) throw new Error(error.message);
+  }
+}
+
+// --- Volume analysis: series × muscle group across workouts ---
+
+export async function getAthleteVolumeAnalysis(athleteId: string) {
+  const supabase = await createClient();
+
+  // Get all active workouts for this athlete
+  const { data: workouts } = await supabase
+    .from("workouts")
+    .select("id")
+    .eq("athlete_id", athleteId)
+    .in("status", ["active", "draft"]);
+
+  if (!workouts || workouts.length === 0) return [];
+
+  const workoutIds = workouts.map((w) => w.id);
+
+  // Get all exercises in these workouts with their sets
+  const { data: wExercises } = await supabase
+    .from("workout_exercises")
+    .select("exercise_id, sets")
+    .in("workout_id", workoutIds);
+
+  if (!wExercises || wExercises.length === 0) return [];
+
+  // Get all unique exercise IDs
+  const exerciseIds = [...new Set(wExercises.map((e) => e.exercise_id))];
+
+  // Get muscle group mappings for these exercises
+  const { data: muscleGroups } = await supabase
+    .from("exercise_muscle_groups")
+    .select("exercise_id, muscle_group, set_weight")
+    .in("exercise_id", exerciseIds);
+
+  if (!muscleGroups || muscleGroups.length === 0) return [];
+
+  // Build map: exercise_id → [{muscle_group, set_weight}]
+  const mgMap: Record<string, { muscle_group: string; set_weight: number }[]> = {};
+  for (const mg of muscleGroups) {
+    if (!mgMap[mg.exercise_id]) mgMap[mg.exercise_id] = [];
+    mgMap[mg.exercise_id].push({
+      muscle_group: mg.muscle_group,
+      set_weight: Number(mg.set_weight),
+    });
+  }
+
+  // Calculate weighted volume per muscle group
+  const volumeMap: Record<string, number> = {};
+  for (const we of wExercises) {
+    const mappings = mgMap[we.exercise_id];
+    if (!mappings) continue;
+    for (const m of mappings) {
+      volumeMap[m.muscle_group] =
+        (volumeMap[m.muscle_group] ?? 0) + we.sets * m.set_weight;
+    }
+  }
+
+  // Sort descending by volume
+  return Object.entries(volumeMap)
+    .map(([muscle_group, sets]) => ({ muscle_group, sets: Math.round(sets * 10) / 10 }))
+    .sort((a, b) => b.sets - a.sets);
 }

@@ -41,11 +41,14 @@ const muscleGroupLabels: Record<string, string> = {
   chest: "Peito",
   back: "Costas",
   shoulders: "Ombros",
-  biceps: "Bíceps",
-  triceps: "Tríceps",
+  biceps: "Biceps",
+  triceps: "Triceps",
   legs: "Pernas",
-  glutes: "Glúteos",
-  abs: "Abdômen",
+  glutes: "Gluteos",
+  quadriceps: "Quadriceps",
+  hamstrings: "Posteriores",
+  calves: "Panturrilha",
+  abs: "Abdomen",
   full_body: "Full Body",
 };
 
