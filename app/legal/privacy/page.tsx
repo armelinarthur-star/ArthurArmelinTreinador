@@ -24,10 +24,10 @@ export default function PrivacyPage() {
             Para duvidas ou solicitacoes sobre seus dados, entre em contato
             pelo e-mail{" "}
             <a
-              href="mailto:contato@arthurarmelim.com.br"
+              href="mailto:armelin.arthur@gmail.com"
               className="text-brand-red underline"
             >
-              contato@arthurarmelim.com.br
+              armelin.arthur@gmail.com
             </a>
             .
           </p>

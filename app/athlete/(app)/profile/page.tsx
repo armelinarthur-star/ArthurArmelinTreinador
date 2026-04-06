@@ -248,12 +248,12 @@ export default function AthleteProfilePage() {
         <MenuItem
           icon={HelpCircle}
           label="Ajuda"
-          href="mailto:contato@arthurarmelim.com.br"
+          href="mailto:armelin.arthur@gmail.com"
         />
         <MenuItem
           icon={AlertCircle}
           label="Reportar problema"
-          href="mailto:contato@arthurarmelim.com.br?subject=Reportar%20problema%20-%20Arthur%20Armelin%20Treinador"
+          href="mailto:armelin.arthur@gmail.com?subject=Reportar%20problema%20-%20Arthur%20Armelin%20Treinador"
         />
         <MenuItem
           icon={FileText}
