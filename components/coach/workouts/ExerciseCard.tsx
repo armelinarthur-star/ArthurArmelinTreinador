@@ -11,7 +11,6 @@ const muscleGroupLabels: Record<string, string> = {
   shoulders: "Ombros",
   biceps: "Biceps",
   triceps: "Triceps",
-  legs: "Pernas",
   glutes: "Gluteos",
   quadriceps: "Quadriceps",
   hamstrings: "Posteriores",
