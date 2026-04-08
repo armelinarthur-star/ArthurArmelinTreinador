@@ -32,32 +32,35 @@ export function MenuItem({
   onToggle,
   isLast,
 }: MenuItemProps) {
-  const iconColor = destructive ? "#FF0025" : "#888888";
-  const labelColor = destructive ? "#FF0025" : "#FFFFFF";
-
   const content = (
     <>
-      <Icon className="size-[18px] shrink-0" style={{ color: iconColor }} />
+      <Icon
+        className={`size-[18px] shrink-0 ${
+          destructive ? "text-brand-red" : "text-content-secondary"
+        }`}
+      />
       <span
-        className="flex-1 text-sm"
-        style={{ color: disabled ? "#555" : labelColor }}
+        className={`flex-1 text-sm ${
+          disabled
+            ? "text-content-tertiary"
+            : destructive
+            ? "text-brand-red"
+            : "text-content-primary"
+        }`}
       >
         {label}
       </span>
 
-      {/* Badge "Em breve" */}
       {badge && (
-        <span className="rounded-[9999px] bg-[rgba(136,136,136,0.12)] px-2 py-0.5 text-[10px] font-medium text-[#888888]">
+        <span className="rounded-pill bg-bg-elevated px-2 py-0.5 text-[10px] font-medium text-content-secondary">
           {badge}
         </span>
       )}
 
-      {/* Value text (kg/lb, streak value, etc.) */}
       {value && !toggle && (
-        <span className="text-[13px] text-[#888888]">{value}</span>
+        <span className="text-[13px] text-content-secondary">{value}</span>
       )}
 
-      {/* Toggle switch */}
       {toggle && (
         <button
           type="button"
@@ -72,7 +75,7 @@ export function MenuItem({
           style={{
             backgroundColor: toggleValue
               ? "#FF0025"
-              : "rgba(255,255,255,0.12)",
+              : "var(--aa-line-default)",
           }}
         >
           <span
@@ -84,16 +87,15 @@ export function MenuItem({
         </button>
       )}
 
-      {/* Chevron for links */}
       {!toggle && !disabled && (href || onPress) && (
-        <ChevronRight className="size-4 shrink-0 text-[#444]" />
+        <ChevronRight className="size-4 shrink-0 text-content-tertiary" />
       )}
     </>
   );
 
   const className = `flex w-full items-center gap-3 px-4 py-3.5 text-left transition-colors duration-150 ${
-    !disabled ? "active:bg-[rgba(255,255,255,0.04)]" : ""
-  } ${!isLast ? "border-b border-[rgba(255,255,255,0.06)]" : ""}`;
+    !disabled ? "active:bg-bg-elevated" : ""
+  } ${!isLast ? "border-b border-line-subtle" : ""}`;
 
   if (disabled) {
     return (
@@ -104,7 +106,6 @@ export function MenuItem({
   }
 
   if (href) {
-    // External links (mailto)
     if (href.startsWith("mailto:")) {
       return (
         <a href={href} className={className}>

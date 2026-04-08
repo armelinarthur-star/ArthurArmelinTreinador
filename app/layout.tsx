@@ -35,14 +35,14 @@ export default function RootLayout({
   return (
     <html
       lang="pt-BR"
-      className={`${inter.variable} ${bebasNeue.variable} ${traveler.variable} dark`}
+      className={`${inter.variable} ${bebasNeue.variable} ${traveler.variable}`}
       suppressHydrationWarning
     >
       <body className="min-h-dvh antialiased">
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
-          forcedTheme="dark"
+          enableSystem={false}
           disableTransitionOnChange
         >
           {children}

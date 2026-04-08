@@ -2,6 +2,7 @@
 
 import { useEffect, useState, useCallback } from "react";
 import { useRouter } from "next/navigation";
+import { useTheme } from "next-themes";
 import { useAuth } from "@/hooks/useAuth";
 import { getAthleteProfileData } from "@/app/actions/athlete";
 import { ProfileHeader } from "@/components/profile/ProfileHeader";
@@ -29,6 +30,7 @@ import {
   HelpCircle,
   AlertCircle,
   FileText,
+  Sun,
 } from "lucide-react";
 
 interface ProfileData {
@@ -47,6 +49,7 @@ interface ProfileData {
 export default function AthleteProfilePage() {
   const { profile: authProfile, isLoading: authLoading, signOut } = useAuth();
   const router = useRouter();
+  const { theme, setTheme } = useTheme();
   const [data, setData] = useState<ProfileData | null>(null);
   const [loading, setLoading] = useState(true);
 
@@ -110,31 +113,31 @@ export default function AthleteProfilePage() {
     return (
       <div className="flex-1 p-5">
         {/* Header skeleton */}
-        <div className="mb-4 animate-pulse rounded-[16px] bg-[#0D0D0D] p-5" style={{ borderTop: "3px solid #FF0025" }}>
+        <div className="mb-4 animate-pulse rounded-[16px] bg-bg-surface p-5" style={{ borderTop: "3px solid #FF0025" }}>
           <div className="flex items-center gap-4">
-            <div className="size-[72px] rounded-full bg-[#1A1A1A]" />
+            <div className="size-[72px] rounded-full bg-bg-elevated" />
             <div className="flex-1 space-y-2">
-              <div className="h-5 w-36 rounded bg-[#1A1A1A]" />
-              <div className="h-4 w-20 rounded bg-[#1A1A1A]" />
+              <div className="h-5 w-36 rounded bg-bg-elevated" />
+              <div className="h-4 w-20 rounded bg-bg-elevated" />
             </div>
           </div>
           <div className="mt-4 flex">
             <div className="flex-1 space-y-1.5 text-center">
-              <div className="mx-auto h-3 w-16 rounded bg-[#1A1A1A]" />
-              <div className="mx-auto h-4 w-12 rounded bg-[#1A1A1A]" />
+              <div className="mx-auto h-3 w-16 rounded bg-bg-elevated" />
+              <div className="mx-auto h-4 w-12 rounded bg-bg-elevated" />
             </div>
-            <div className="h-8 w-px bg-[rgba(255,255,255,0.08)]" />
+            <div className="h-8 w-px bg-line-subtle" />
             <div className="flex-1 space-y-1.5 text-center">
-              <div className="mx-auto h-3 w-16 rounded bg-[#1A1A1A]" />
-              <div className="mx-auto h-4 w-12 rounded bg-[#1A1A1A]" />
+              <div className="mx-auto h-3 w-16 rounded bg-bg-elevated" />
+              <div className="mx-auto h-4 w-12 rounded bg-bg-elevated" />
             </div>
           </div>
         </div>
 
         {/* Menu skeletons */}
         {[1, 2, 3].map((i) => (
-          <div key={i} className="mb-4 animate-pulse rounded-[12px] bg-[#0D0D0D] p-4">
-            <div className="h-4 w-24 rounded bg-[#1A1A1A]" />
+          <div key={i} className="mb-4 animate-pulse rounded-card bg-bg-surface p-4">
+            <div className="h-4 w-24 rounded bg-bg-elevated" />
           </div>
         ))}
       </div>
@@ -221,6 +224,13 @@ export default function AthleteProfilePage() {
 
       {/* Configuracoes */}
       <MenuGroup title="Configuracoes">
+        <MenuItem
+          icon={Sun}
+          label="Tema"
+          toggle
+          toggleValue={theme === "dark"}
+          onToggle={(dark) => setTheme(dark ? "dark" : "light")}
+        />
         <MenuItem
           icon={Scale}
           label="Unidade de peso"

@@ -1,14 +1,33 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { useTheme } from "next-themes";
+import { useEffect, useState } from "react";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 export default function Home() {
+  const { theme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+
+  const logoSrc =
+    mounted && theme === "light"
+      ? "/brand/LOGO01_PRETO.png"
+      : "/brand/LOGO01_BRANCO.png";
+
   return (
     <div className="relative flex min-h-dvh flex-col items-center justify-center bg-bg-base px-6">
+      {/* Theme toggle */}
+      <div className="absolute right-4 top-4">
+        <ThemeToggle />
+      </div>
+
       {/* Content */}
       <div className="flex flex-col items-center gap-6">
         {/* Logo */}
         <Image
-          src="/brand/LOGO01_BRANCO.png"
+          src={logoSrc}
           alt="Arthur Armelin Treinador"
           width={320}
           height={160}
@@ -34,14 +53,14 @@ export default function Home() {
           </Link>
           <Link
             href="/coach/login"
-            className="flex h-[52px] items-center justify-center rounded-input border border-white/20 px-8 text-[15px] font-semibold text-white transition-all duration-200 hover:border-white/40 hover:scale-[0.98]"
+            className="flex h-[52px] items-center justify-center rounded-input border border-line-strong px-8 text-[15px] font-semibold text-content-primary transition-all duration-200 hover:bg-bg-elevated hover:scale-[0.98]"
           >
             Acessar como Treinador
           </Link>
         </div>
       </div>
 
-      {/* Decorative lines — bottom right */}
+      {/* Decorative lines */}
       <div className="absolute bottom-8 right-8 flex flex-col gap-2 opacity-30">
         <div className="h-px w-16 bg-brand-red" />
         <div className="ml-4 h-px w-12 bg-brand-red" />

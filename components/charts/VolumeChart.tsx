@@ -1,7 +1,5 @@
 "use client";
 
-import type { MuscleGroup } from "@/lib/types/database";
-
 const muscleGroupLabels: Record<string, string> = {
   chest: "Peito",
   back: "Costas",
@@ -32,9 +30,9 @@ export function VolumeChart({
 }: VolumeChartProps) {
   if (data.length === 0) {
     return (
-      <div className="rounded-[12px] border border-[rgba(255,255,255,0.08)] bg-[#0D0D0D] p-5">
-        <h3 className="mb-3 text-sm font-semibold text-white">{title}</h3>
-        <p className="text-xs text-[#888888]">
+      <div className="rounded-card border border-line-subtle bg-bg-surface p-5">
+        <h3 className="mb-3 text-sm font-semibold text-content-primary">{title}</h3>
+        <p className="text-xs text-content-secondary">
           Nenhum dado de volume disponivel. Atribua treinos com exercicios
           configurados para visualizar.
         </p>
@@ -45,9 +43,9 @@ export function VolumeChart({
   const maxSets = Math.max(...data.map((d) => d.sets));
 
   return (
-    <div className="rounded-[12px] border border-[rgba(255,255,255,0.08)] bg-[#0D0D0D] p-5">
-      <h3 className="mb-1 text-sm font-semibold text-white">{title}</h3>
-      <p className="mb-4 text-[11px] text-[#888888]">
+    <div className="rounded-card border border-line-subtle bg-bg-surface p-5">
+      <h3 className="mb-1 text-sm font-semibold text-content-primary">{title}</h3>
+      <p className="mb-4 text-[11px] text-content-secondary">
         Series ponderadas por grupo muscular
       </p>
 
@@ -60,15 +58,15 @@ export function VolumeChart({
           return (
             <div key={item.muscle_group}>
               <div className="mb-1 flex items-center justify-between">
-                <span className="text-xs font-medium text-[#CCCCCC]">
+                <span className="text-xs font-medium text-content-primary">
                   {label}
                 </span>
-                <span className="font-accent text-xs font-bold text-white">
+                <span className="font-accent text-xs font-bold text-content-primary">
                   {item.sets % 1 === 0 ? item.sets : item.sets.toFixed(1)}{" "}
-                  <span className="font-normal text-[#888888]">series</span>
+                  <span className="font-normal text-content-secondary">series</span>
                 </span>
               </div>
-              <div className="h-[6px] overflow-hidden rounded-full bg-[#1A1A1A]">
+              <div className="h-[6px] overflow-hidden rounded-full bg-bg-elevated">
                 <div
                   className="h-full rounded-full transition-all duration-500 ease-out"
                   style={{
@@ -87,10 +85,9 @@ export function VolumeChart({
         })}
       </div>
 
-      {/* Total */}
-      <div className="mt-4 flex items-center justify-between border-t border-[rgba(255,255,255,0.06)] pt-3">
-        <span className="text-xs text-[#888888]">Total</span>
-        <span className="font-accent text-sm font-bold text-white">
+      <div className="mt-4 flex items-center justify-between border-t border-line-subtle pt-3">
+        <span className="text-xs text-content-secondary">Total</span>
+        <span className="font-accent text-sm font-bold text-content-primary">
           {Math.round(data.reduce((sum, d) => sum + d.sets, 0) * 10) / 10}{" "}
           series
         </span>

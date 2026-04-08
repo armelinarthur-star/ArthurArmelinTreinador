@@ -22,27 +22,28 @@
   --font-accent: var(--font-bebas-neue);
   --font-body: var(--font-inter);
 
-  /* Brand colors */
+  /* Brand colors — fixed across themes */
   --color-brand-red: #FF0025;
   --color-brand-red-dark: #CC001E;
   --color-brand-red-subtle: rgba(255, 0, 37, 0.12);
   --color-brand-black: #000000;
   --color-brand-white: #FFFFFF;
 
-  --color-bg-base: #000000;
-  --color-bg-surface: #0D0D0D;
-  --color-bg-elevated: #1A1A1A;
-  --color-bg-overlay: #242424;
+  /* Theme-aware semantic tokens */
+  --color-bg-base: var(--aa-bg-base);
+  --color-bg-surface: var(--aa-bg-surface);
+  --color-bg-elevated: var(--aa-bg-elevated);
+  --color-bg-overlay: var(--aa-bg-overlay);
 
-  --color-content-primary: #FFFFFF;
-  --color-content-secondary: #888888;
-  --color-content-tertiary: #444444;
-  --color-content-inverse: #000000;
+  --color-content-primary: var(--aa-content-primary);
+  --color-content-secondary: var(--aa-content-secondary);
+  --color-content-tertiary: var(--aa-content-tertiary);
+  --color-content-inverse: var(--aa-content-inverse);
   --color-content-accent: #FF0025;
 
-  --color-line-subtle: rgba(255, 255, 255, 0.08);
-  --color-line-default: rgba(255, 255, 255, 0.12);
-  --color-line-strong: rgba(255, 255, 255, 0.24);
+  --color-line-subtle: var(--aa-line-subtle);
+  --color-line-default: var(--aa-line-default);
+  --color-line-strong: var(--aa-line-strong);
 
   --color-state-success: #22C55E;
   --color-state-warning: #F59E0B;
@@ -92,43 +93,76 @@
   --radius-4xl: calc(var(--radius) * 2.6);
 }
 
-/* Dark-first: AA brand is always dark */
+/* ══════════════════════════════════
+   LIGHT THEME (default)
+   ══════════════════════════════════ */
 :root {
-  --background: #000000;
-  --foreground: #FFFFFF;
-  --card: #0D0D0D;
-  --card-foreground: #FFFFFF;
-  --popover: #0D0D0D;
-  --popover-foreground: #FFFFFF;
+  --aa-bg-base: #F5F5F7;
+  --aa-bg-surface: #FFFFFF;
+  --aa-bg-elevated: #F0F0F2;
+  --aa-bg-overlay: #E5E5EA;
+
+  --aa-content-primary: #1C1C1E;
+  --aa-content-secondary: #6E6E73;
+  --aa-content-tertiary: #AEAEB2;
+  --aa-content-inverse: #FFFFFF;
+
+  --aa-line-subtle: rgba(0, 0, 0, 0.06);
+  --aa-line-default: rgba(0, 0, 0, 0.10);
+  --aa-line-strong: rgba(0, 0, 0, 0.20);
+
+  --background: #F5F5F7;
+  --foreground: #1C1C1E;
+  --card: #FFFFFF;
+  --card-foreground: #1C1C1E;
+  --popover: #FFFFFF;
+  --popover-foreground: #1C1C1E;
   --primary: #FF0025;
   --primary-foreground: #FFFFFF;
-  --secondary: #1A1A1A;
-  --secondary-foreground: #FFFFFF;
-  --muted: #1A1A1A;
-  --muted-foreground: #888888;
-  --accent: #1A1A1A;
-  --accent-foreground: #FFFFFF;
+  --secondary: #F0F0F2;
+  --secondary-foreground: #1C1C1E;
+  --muted: #F0F0F2;
+  --muted-foreground: #6E6E73;
+  --accent: #F0F0F2;
+  --accent-foreground: #1C1C1E;
   --destructive: #EF4444;
-  --border: rgba(255, 255, 255, 0.08);
-  --input: rgba(255, 255, 255, 0.12);
+  --border: rgba(0, 0, 0, 0.06);
+  --input: rgba(0, 0, 0, 0.10);
   --ring: #FF0025;
   --chart-1: #FF0025;
   --chart-2: #22C55E;
   --chart-3: #F59E0B;
-  --chart-4: #888888;
-  --chart-5: #444444;
+  --chart-4: #6E6E73;
+  --chart-5: #AEAEB2;
   --radius: 0.5rem;
-  --sidebar: #0D0D0D;
-  --sidebar-foreground: #FFFFFF;
+  --sidebar: #FFFFFF;
+  --sidebar-foreground: #1C1C1E;
   --sidebar-primary: #FF0025;
   --sidebar-primary-foreground: #FFFFFF;
-  --sidebar-accent: #1A1A1A;
-  --sidebar-accent-foreground: #FFFFFF;
-  --sidebar-border: rgba(255, 255, 255, 0.08);
+  --sidebar-accent: #F0F0F2;
+  --sidebar-accent-foreground: #1C1C1E;
+  --sidebar-border: rgba(0, 0, 0, 0.06);
   --sidebar-ring: #FF0025;
 }
 
+/* ══════════════════════════════════
+   DARK THEME
+   ══════════════════════════════════ */
 .dark {
+  --aa-bg-base: #000000;
+  --aa-bg-surface: #0D0D0D;
+  --aa-bg-elevated: #1A1A1A;
+  --aa-bg-overlay: #242424;
+
+  --aa-content-primary: #FFFFFF;
+  --aa-content-secondary: #888888;
+  --aa-content-tertiary: #444444;
+  --aa-content-inverse: #000000;
+
+  --aa-line-subtle: rgba(255, 255, 255, 0.08);
+  --aa-line-default: rgba(255, 255, 255, 0.12);
+  --aa-line-strong: rgba(255, 255, 255, 0.24);
+
   --background: #000000;
   --foreground: #FFFFFF;
   --card: #0D0D0D;
@@ -194,5 +228,14 @@
 
 .divider {
   border: none;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: 1px solid var(--aa-line-subtle);
+}
+
+/* Hide scrollbar for nav */
+.nav-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.nav-scroll::-webkit-scrollbar {
+  display: none;
 }
