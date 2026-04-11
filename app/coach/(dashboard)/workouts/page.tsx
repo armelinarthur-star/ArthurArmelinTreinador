@@ -16,7 +16,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { Plus, MoreVertical, Pencil, Copy, Archive } from "lucide-react";
+import { Plus, MoreVertical, Pencil, Copy, Archive, Sparkles } from "lucide-react";
 
 type TabValue = "active" | "draft" | "archived";
 
@@ -87,12 +87,20 @@ export default function WorkoutsPage() {
       {/* Header */}
       <div className="mb-6 flex items-center justify-between">
         <h1 className="text-xl font-semibold text-content-primary">Treinos</h1>
-        <Link href="/coach/workouts/new">
-          <Button className="gap-2 rounded-input bg-brand-red text-white hover:bg-brand-red-dark">
-            <Plus className="size-4" />
-            Criar Treino
-          </Button>
-        </Link>
+        <div className="flex gap-2">
+          <Link href="/coach/workouts/generate">
+            <Button variant="outline" className="gap-2 rounded-input">
+              <Sparkles className="size-4" />
+              Gerar com IA
+            </Button>
+          </Link>
+          <Link href="/coach/workouts/new">
+            <Button className="gap-2 rounded-input bg-brand-red text-white hover:bg-brand-red-dark">
+              <Plus className="size-4" />
+              Criar Treino
+            </Button>
+          </Link>
+        </div>
       </div>
 
       {/* Tabs */}

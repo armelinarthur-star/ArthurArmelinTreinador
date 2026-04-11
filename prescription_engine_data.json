@@ -1,0 +1,3120 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "format": "musculacao_mvp",
+    "total_students": 13,
+    "total_exercises": 236,
+    "extracted_date": "2026-04-09",
+    "mvp_ready_students": 12
+  },
+  "student_profiles": {
+    "helmuth": {
+      "name": "Helmuth",
+      "mapped_name": null,
+      "birth_date": "1988-04-30",
+      "profession": "Diretor Executivo",
+      "sports_history": "Helmuth: Quando mais jovem praticou musculação (há mais de 10 anos), após entrar na faculdade ficou difícil conciliar, ano passado ficou um ano na vida \"fit\", perdeu 12kg em aprox 3~4 meses. Fazia treinos \"HIIT\" e no app da Apple.\nCurtia treinar musculação. Prioridade é perder peso.\nAcademia muito cheia e o instrutor não dava muito atenção.\n\n\nCibele: também treinou há algum tempo atrás, (mãe de 2), treinava em casa cuidando da alimentação e conseguiu perder bastante peso no período. Quando a filha começou a escolinha conseguiu se manter quase 2 anos treinando direto na academia.",
+      "injuries": [
+        "H: nada",
+        "excelente.",
+        "C: nada",
+        "excelente."
+      ],
+      "health_conditions": [
+        "Nada."
+      ],
+      "medications": [
+        "H: Remédio pro colesterol. Nebloc (coração",
+        "diminuição do ritmo cardíaco)",
+        "zoopiden e donaren esporadicamente.",
+        "C: nada."
+      ],
+      "current_practice": "H: 1 ano parado, e esteve fazendo HIIT desde o início da pandemia. Musculação não faz há 1 ano também.\n\nC: treinou reuglharmente até novembro, desde o início da pandemia. 2 meses parada.",
+      "goal": "H: ser mais disciplinado, estar mais vinculado com um estilo de vida saudável. Saúde.\n\nC: busca desenvolver mais a musculatura aliada a definição.",
+      "weekly_frequency": null,
+      "session_duration": null,
+      "gender": "M",
+      "experience_level": "intermediário",
+      "form_timestamp": "2022/02/02 1:36:42 PM GMT-3"
+    },
+    "sibele": {
+      "name": "Cibele",
+      "mapped_name": null,
+      "birth_date": "1988-04-30",
+      "profession": "Diretor Executivo",
+      "sports_history": "Helmuth: Quando mais jovem praticou musculação (há mais de 10 anos), após entrar na faculdade ficou difícil conciliar, ano passado ficou um ano na vida \"fit\", perdeu 12kg em aprox 3~4 meses. Fazia treinos \"HIIT\" e no app da Apple.\nCurtia treinar musculação. Prioridade é perder peso.\nAcademia muito cheia e o instrutor não dava muito atenção.\n\n\nCibele: também treinou há algum tempo atrás, (mãe de 2), treinava em casa cuidando da alimentação e conseguiu perder bastante peso no período. Quando a filha começou a escolinha conseguiu se manter quase 2 anos treinando direto na academia.",
+      "injuries": [
+        "H: nada",
+        "excelente.",
+        "C: nada",
+        "excelente."
+      ],
+      "health_conditions": [
+        "Nada."
+      ],
+      "medications": [
+        "H: Remédio pro colesterol. Nebloc (coração",
+        "diminuição do ritmo cardíaco)",
+        "zoopiden e donaren esporadicamente.",
+        "C: nada."
+      ],
+      "current_practice": "H: 1 ano parado, e esteve fazendo HIIT desde o início da pandemia. Musculação não faz há 1 ano também.\n\nC: treinou reuglharmente até novembro, desde o início da pandemia. 2 meses parada.",
+      "goal": "H: ser mais disciplinado, estar mais vinculado com um estilo de vida saudável. Saúde.\n\nC: busca desenvolver mais a musculatura aliada a definição.",
+      "weekly_frequency": null,
+      "session_duration": null,
+      "gender": "F",
+      "experience_level": "intermediário",
+      "form_timestamp": "2022/02/02 1:36:42 PM GMT-3"
+    },
+    "jairo": {
+      "name": "Jairo Cantillo",
+      "mapped_name": null,
+      "birth_date": "1983-01-27",
+      "profession": "Engenheiro",
+      "sports_history": "Basquete, musculação (14anos)  e crossfit (7 anos). Esporte e o treino mudou a minha vida, sempre gostei e é parte importantíssima da minha vida, saude e rotina",
+      "injuries": [
+        "Ruptura do tendão do triceps e cirurgia feita de transplante de tecido."
+      ],
+      "health_conditions": [
+        "Nenhuma",
+        "apenas a cirurgia"
+      ],
+      "medications": [],
+      "current_practice": "Musculação e crossfit (20 anos)",
+      "goal": "Voltar a minha disciplina, estética e logo performance…",
+      "weekly_frequency": null,
+      "session_duration": null,
+      "gender": "M",
+      "experience_level": "intermediário",
+      "form_timestamp": "2022/02/24 1:23:30 PM GMT-3"
+    },
+    "diogo_ongarato": {
+      "name": "Diogo Sant clair Ongarato Peixoto",
+      "mapped_name": null,
+      "birth_date": "2001-04-02",
+      "profession": "Estudante",
+      "sports_history": "Só tenho experiências boas com esportes, quando era mais novo jogava futebol e acho que muitas coisas da minha personalidade de  hoje em dia foram moldadas pelas minhas experiências no esporte, mais velho joguei basquete",
+      "injuries": [
+        "Na época que joguei basquete acabei torcendo bastante meu tornozelo",
+        "não sinto nenhuma dor crônica",
+        "porém meu tornozelo ainda é meio fraco mesmo após passar em um fisioterapeuta. Atualmente fazem 4 meses que fiz uma cirurgia de redução de estômago",
+        "foram 38 kilos perdidos porém quero começar a puxar um peso para ganhar massa magra e continuar emagrecendo de maneira saudável"
+      ],
+      "health_conditions": [
+        "Atualmente apenas o sobrepeso"
+      ],
+      "medications": [],
+      "current_practice": "Pratico esportes desde quando era pequeno, porém atualmente estou só praticando exercício cardio na academia mesmo",
+      "goal": "Saúde, autoestima e de quebra a estética.",
+      "weekly_frequency": null,
+      "session_duration": null,
+      "gender": "M",
+      "experience_level": "iniciante",
+      "form_timestamp": "2022/04/25 12:25:31 PM GMT-3"
+    },
+    "gaab_maccarini": {
+      "name": "Gabriela Maccarini",
+      "mapped_name": "gaab_maccarini",
+      "birth_date": "1992-03-17",
+      "profession": null,
+      "sports_history": "De uma forma ou de outra sempre fiz exercício físico, me identifico mais com a dinâmica do Cross. Não gosto da monotomia ou a quantidade de gente de academia normal, por isso, quero fazer esse treino com os aparelhos em casa.\nSinto que preciso de mais alongamento também.",
+      "injuries": [
+        "A parte inferior a coluna faz um \"clec\" dependendo do tipo de abdominal. Tendinite na pata de ganso dos dois joelhos.",
+        "Ps: tenho começado a sentir dores nas costas no geral",
+        "então acho que seria legal fortalecer toda a musculatura",
+        "até por postura e pensando a longo prazo"
+      ],
+      "health_conditions": [
+        "Meu cardio sempre foi muuito ruim"
+      ],
+      "medications": [],
+      "current_practice": "Como disse, desde sempre. Mas tem uns dois meses que tenho feito exercícios em casa com a ajuda do YouTube. Se precisar, posso mandar as referências.",
+      "goal": "Saúde, Estética, Autoestima",
+      "weekly_frequency": 3,
+      "session_duration": null,
+      "gender": "F",
+      "experience_level": "intermediário",
+      "form_timestamp": "2022/07/21 5:43:00 PM GMT-3"
+    },
+    "helen_tiene": {
+      "name": "Helen Tiene",
+      "mapped_name": null,
+      "birth_date": "1987-06-16",
+      "profession": "Vendas",
+      "sports_history": "Gosto de atividades em equipe. Já joguei handebol na adolescência, hoje pratico somente Crossfit e yoga 1x na semana. Não sou muito fã de academia, mas entendo que preciso realizar fortalecimento.",
+      "injuries": [
+        "Crônicas não tenho nenhuma. Mas estou com dores no ombro direito."
+      ],
+      "health_conditions": [
+        "Tenho escoliose na lombar",
+        "mas por ser uma lesão mínima",
+        "não interfere e não sinto dores."
+      ],
+      "medications": [
+        "Nao"
+      ],
+      "current_practice": "Posso dizer que realizo mesmo atividades (+3x na semana) por volta de 10 anos. Já fiz planilha de corrida nesse tempo, TRX, funcional, Crossfit e yoga.",
+      "goal": "Fortalecimento muscular e Estetica.",
+      "weekly_frequency": 3,
+      "session_duration": null,
+      "gender": "F",
+      "experience_level": "intermediário",
+      "form_timestamp": "2023/03/29 1:06:56 PM GMT-3"
+    },
+    "suellen_tremarin": {
+      "name": "Suelen Tremarin",
+      "mapped_name": null,
+      "birth_date": "1983-04-02",
+      "profession": "Consultora financeira",
+      "sports_history": "Pratiquei Crossfit por 4 anos, não era a mais aplicada, mas ia bem. 2 anos de funcional indo 3 a 4 vezes na semana, 2 vezes por semana de yoga. Nunca fui pra uma academia convencional.",
+      "injuries": [
+        "O ombro esquerdo incomoda na hora de fazer snatch (não sinto falta) algumas dores na cervical por causa de protusão",
+        "e ultimamente dores na lombar."
+      ],
+      "health_conditions": [
+        "Acho que tá boa."
+      ],
+      "medications": [
+        "Não."
+      ],
+      "current_practice": "2 anos de funcional + 6 meses de pilates + 2 meses de yoga",
+      "goal": "Estética e saúde n?! Envelhecer bem!",
+      "weekly_frequency": 2,
+      "session_duration": null,
+      "gender": "F",
+      "experience_level": "iniciante",
+      "form_timestamp": "2023/06/15 12:47:58 PM GMT-3"
+    },
+    "alice_brisolla": {
+      "name": "Alice Brisolla",
+      "mapped_name": null,
+      "birth_date": "1986-12-26",
+      "profession": "Ger. De Marketing",
+      "sports_history": "Positivas: sempre fui ligada a esportes coletivos e que tem desafios pessoais. O crossfit me trouxe o ponto de aprender a fazer exercícios que geram “desconforto”.\nNegativas: a musculação era uma delas, pois achava entediante. As máquinas ainda são um desafio pra mim.",
+      "injuries": [],
+      "health_conditions": [
+        "Nenhum problema diagnosticado."
+      ],
+      "medications": [
+        "Apenas anticoncepcional."
+      ],
+      "current_practice": "12 anos entre Crossfit e funcionais pesados.",
+      "goal": "Primeiramente saúde. Quando não treino minhas crises de enxaqueca voltam com frequência, além dos benefícios de longevidade. Mas obviamente a estética vem como segunda prioridade.",
+      "weekly_frequency": 4,
+      "session_duration": null,
+      "gender": "F",
+      "experience_level": "intermediário",
+      "form_timestamp": "2023/10/27 1:36:16 PM GMT-3"
+    },
+    "jheni_adam": {
+      "name": "Jheniffer",
+      "mapped_name": "jheni_adam",
+      "birth_date": "1994-09-24",
+      "profession": "Mãe de um bebê de 3 meses",
+      "sports_history": "Parei academia quando descobri a gravidez, meu obstetra me liberou agora para retornar à academia e atividade física.",
+      "injuries": [
+        "Tenho um pequeno grau de escoliose."
+      ],
+      "health_conditions": [
+        "Tudo certo."
+      ],
+      "medications": [
+        "Não."
+      ],
+      "current_practice": "Estou parada há 1 ano.",
+      "goal": "Com a gravidez meu abdômen está com diástase, quero retornar com o músculo pro lugar e fortalecer todo o corpo. Emagreci 18kg desde que o VG nasceu, então está tudo mole kkkk preciso fortalecer.",
+      "weekly_frequency": 5,
+      "session_duration": null,
+      "gender": "F",
+      "experience_level": "intermediário",
+      "form_timestamp": "2025/01/09 3:16:14 PM GMT-3"
+    },
+    "yasmin_de_nadai": {
+      "name": "Yasmin de Nadai",
+      "mapped_name": null,
+      "birth_date": "1997-12-01",
+      "profession": "Arquiteta",
+      "sports_history": "Faço academia desde os 15 anos de idade, montados pelos profissionais da academia mesmo, mas sempre tive dificuldade de definição, o único período que vi diferença foi quando fiz treinos com acompanhamento de um personal e quando passei a seguir uma dieta. Ano passado, decidi fazer pilates 2x na semana por me sentir muito travada e acabei reduzindo a academia, o que teve um impacto no meu corpo, que afinou. Para esse ano, decidi ficar com o pilates apenas 1x na semana. Sempre achei que o cardio fosse me atrapalhar a ganhar massa mas passei a focar mais nele tem uns 2 anos e fez uma enorme diferença nos meus treinos de força, ampliou muito meu fôlego. Hoje, tento fazer 20min de cardio (caminhada 5km/h com inclinação 15%) ao fim de todo treino de força e correr 5km aos domingos (sem treino de musculação).",
+      "injuries": [
+        "Tenho um pouco de lordose mas desde que passei a fortalecer no pilates",
+        "não tive mais dores nos agachamentos. Ás vezes",
+        "sinto um pouco o joelho",
+        "mas parece mais ter a ver com erro na postura do que algo crônico."
+      ],
+      "health_conditions": [
+        "Não tem."
+      ],
+      "medications": [
+        "Não."
+      ],
+      "current_practice": "Desde 2013/2014, basicamente musculação.",
+      "goal": "Atingir a estética que almejo. Gostaria de ganhar mais massa e definição, especialmente nos músculos das pernas e glúteos. Tenho um desenho de corpo onde minhas costas são mais largas que meus quadris, e que gostaria de equilibrar um pouco mais. Além disso, gostaria de ter maior entendimento da correta execução dos exercícios.",
+      "weekly_frequency": 1,
+      "session_duration": null,
+      "gender": "F",
+      "experience_level": "intermediário",
+      "form_timestamp": "2025/01/13 1:24:11 PM GMT-3"
+    },
+    "walter_shima": {
+      "name": "WALTER TADAHIRO SHIMA",
+      "mapped_name": "walter_shima",
+      "birth_date": "1964-08-12",
+      "profession": "Professor de economia da UFPR",
+      "sports_history": "Judo-ka desde 1971. Todo meu preparo é focado em desempenho competitivo em judô.",
+      "injuries": [
+        "1) Sete parafusos e uma placa no tornozelo esquerdo decorrente de fratura em randori. Artroscopias: ombro esquerdo inclusive com recuperação de ligamentos; quadril direito",
+        "joelho esquerdo. Mais recentemente fiz aplicação de acido hialurônico nos dois joelhos",
+        "sem muito resultado ou fora do que eu esperava. Joelho direito já bastante limitado com artrose."
+      ],
+      "health_conditions": [
+        "A maior limitação atualmente é o ombro direito que segundo laudos de RM e avaliação de um médico já seria indicação de prótese. Outro médico disse que ainda não",
+        "mas logo seria. Esse ombro está bem ressentido sempre. Agora sem fazer randori desde outubro e fazendo somente musculação",
+        "não dói",
+        "mas fica sempre uma lembrança. Precisa alongar sempre. Ai melhora bastante. As outras lesões acima descritas não são tão limitantes. Creio que se ficar impactando muito o ombro",
+        "na atual condição vai começar a inflamar e doer de novo."
+      ],
+      "medications": [],
+      "current_practice": "Desde 1971.",
+      "goal": "Ver se consigo fazer alguma coisa que reforce e melhore o ombro e fora isso melhorar desempenho físico em shiai.",
+      "weekly_frequency": 4,
+      "session_duration": null,
+      "gender": "M",
+      "experience_level": "iniciante",
+      "form_timestamp": "2025/01/16 1:33:31 PM GMT-3"
+    },
+    "marcus_brisolla": {
+      "name": "Marcus Vinicius Machado ziolkowski",
+      "mapped_name": "marcus_brisolla",
+      "birth_date": "2011-11-11",
+      "profession": "Estudante",
+      "sports_history": "Fraturou o pé no futebol/campeão da coxa cup sub-13/ medalhista na copa Paraná de judô",
+      "injuries": [
+        "Dor esporádica no calcaneo"
+      ],
+      "health_conditions": [
+        "Boa saude"
+      ],
+      "medications": [
+        "Nao"
+      ],
+      "current_practice": "Ha 11 anos/ futebol e judô",
+      "goal": "Estética/performance no esporte",
+      "weekly_frequency": 5,
+      "session_duration": null,
+      "gender": "M",
+      "experience_level": "intermediário",
+      "form_timestamp": "2025/02/20 6:32:32 PM GMT-3"
+    },
+    "vitoria_cubas": {
+      "name": "Vitória Cubas",
+      "mapped_name": null,
+      "birth_date": "2002-09-02",
+      "profession": "Estudante",
+      "sports_history": "Musculação desde os 15 anos, dança na infância, crossfit com 17 anos (não gostava de treinos assim). No momento, faço pilates para melhora da dor lombar.",
+      "injuries": [
+        "Hérnia de Disco lombar - L4/L5 e S1/L5",
+        "Dor irradiada para posterior de coxa e panturrilha."
+      ],
+      "health_conditions": [
+        "Apenas as hérnias"
+      ],
+      "medications": [
+        "ACO",
+        "pregalina se dor intensa pelas hérnias"
+      ],
+      "current_practice": "Musculação desde os 15 anos. \nPilates desde o ano passado, 1x/ semana",
+      "goal": "Saúde (fortalecimento principalmente da região lombar e abdominal, e região glútea para sustentação das costas) e estética (tonificar sem ficar muuuuito forte kkkk)",
+      "weekly_frequency": 4,
+      "session_duration": "40 minutos - 1 hora",
+      "gender": "F",
+      "experience_level": "intermediário",
+      "form_timestamp": "2025/03/06 11:18:08 AM GMT-3"
+    },
+    "rebeca_sauwen": {
+      "name": "Rebeca Sauwen",
+      "mapped_name": null,
+      "birth_date": "1995-06-15",
+      "profession": "Cantora, produtora executiva, freelancer de marketing digital musical.",
+      "sports_history": "Infância: natação, ballet, sapateado, capoeira.\nAdolescência: uma época mais sedentária, entrei em algumas academias, mas nada frequente. \n18 a 24 - Comecei a fazer trilhas e andar de bicicleta pela cidade. Nada constante, mas definitivamente mais intenso. Ia a praia de bicicleta, 13km de ida e 13km de volta. Aos 21, fiz uns 3 meses de academia na BodyTech e consegui ver resultado, mas meu treino era muito intenso e demorava 2h. Perto dos 23, fiz Yoga e entrava e saía de academia. \n25 - Exercícios funcionais em casa, aplicativos + bicicleta para me locomover. (2020) \n26 - Canoa polinésia por 4 meses em Niterói + bicicleta para me locomover. \n27 -  Morei em São Paulo, entrei na academia, fiz aula de funcional + jump e às vezes musculação. \n28 - De volta ao Rio, fiz aulas de canoa polinésia de Novembro a Março e saí quando chegou o inverno. Nessa época entrei na Yoga Vinyasa e fiz o ano inteiro com frequência. \n29 - Yoga + bicicleta ergométrica que comprei para casa. Desde o último Novembro, faço musculação na academia e 1h na minha bicicleta em casa. Parei a yoga durante 2 meses, mas voltarei em Abril.  \n\nO que não gosto: Burpee, Circuitos, Afundo, Escada. \nO que gosto: Bicicleta, Yoga, Elíptico. Musculação: tenho começado a gostar de treinar a parte superior. Prefiro fazer exercícios em aparelhos, mas alguns com halter. Desde que tive condromalácia, comecei a ter mais receio de treinar perna. Gosto de correr, mas meu joelho acaba doendo.",
+      "injuries": [
+        "Tenho condromalácia patelar nos dois joelhos."
+      ],
+      "health_conditions": [
+        "Costumo ter amigdalite com frequência."
+      ],
+      "medications": [
+        "Não. Apenas vitamina D."
+      ],
+      "current_practice": "A partir dos 18 anos comecei a ser mais ativa. Mas em questão de constância, 4/5 anos. Principalmente, exercícios aeróbicos.",
+      "goal": "Quero emagrecer. Desde os 27 acho que meu metabolismo desacelerou. Minha alimentação, entretanto, é super saudável, faço acompanhamento com nutri e costumo me manter ativa com exercícios aeróbicos principalmente. Quero emagrecer de forma saudável e acredito que focar no crescimento de massa magra faça parte dessa equação.",
+      "weekly_frequency": 4,
+      "session_duration": "1h a 1h40",
+      "gender": "F",
+      "experience_level": "intermediário",
+      "form_timestamp": "2025/03/23 8:30:35 PM GMT-3"
+    },
+    "allan_gorski": {
+      "name": "Allan Mesquita Gorski",
+      "mapped_name": "allan_gorski",
+      "birth_date": "1995-05-08",
+      "profession": null,
+      "sports_history": "Já realizei alguns anos de natação, gostei muito, sem pontos negativos. Futebol jogo desde que me conheço, porém com várias lesões (clavícula, ligamento medial e talofibular dos 2 tornozelos, porém sem nenhum incômodo para continuar praticando). E musculação na academia, ponto negativo é meu mesmo, falta de consistência e foco.",
+      "injuries": [
+        "Clavícula esquerda",
+        "lesão no osso",
+        "mas 100% recuperado",
+        "sem dores. Ligamentos tornozelo (medial e talofibular) 100% recuperado",
+        "sem dores."
+      ],
+      "health_conditions": [
+        "Nada a declarar."
+      ],
+      "medications": [
+        "Não."
+      ],
+      "current_practice": "A 18 anos.",
+      "goal": "Me tornei pai recentemente, e meu maior objetivo é estar mais saudável para poder acompanhar e criar meu filho. Em paralelo acredito que a autoestima e também a performance no esporte (várzea/amador/casual) sejam razões paralelas ao objetivo principal.",
+      "weekly_frequency": 3,
+      "session_duration": "De 40 min a 1h20.",
+      "gender": "M",
+      "experience_level": "intermediário",
+      "form_timestamp": "2025/04/25 9:06:35 AM GMT-3"
+    },
+    "antonio_mendes": {
+      "name": "Antonio M Mendes",
+      "mapped_name": "antonio_mendes",
+      "birth_date": "1987-01-18",
+      "profession": "Professor",
+      "sports_history": "Pratico judô desde os 6 anos. Já pratiquei outras modalidades esportivas (futebol, handebol, ciclismo) mas sem a mesma regularidade. Atualmente mantenho a prática do judô duas vezes por semana + pilates 2 vezes na semana + 1 atividade cardio na semana de 1h (normalmente bike)",
+      "injuries": [
+        "Impacto femoro acetabular esquerdo com um pouco de restrição na mobilidade de quadril + recente subluxação acromio clavicular em ombro esquerdo com alguma restrições de mobilidade. Ruptura do tendão de Aquiles direito em 2021 - realizada tendinorrafia com pouca restrição de mobilidade"
+      ],
+      "health_conditions": [
+        "Apenas rinite alergica controlada"
+      ],
+      "medications": [
+        "Dymista inalatorio para controle de rinite"
+      ],
+      "current_practice": "Regularmente desde 2022 (pilates 2x + musculação 3x). A parti de 2024 regularmente (judo 2x + pilates 2x + t.funcional 2x)",
+      "goal": "Dois motivos principais: saude geral + melhor performance no judô (tbm para evitar lesões no judô)",
+      "weekly_frequency": 2,
+      "session_duration": "1h - 1h30",
+      "gender": "M",
+      "experience_level": "intermediário",
+      "form_timestamp": "2026/01/12 7:34:39 PM GMT-3"
+    }
+  },
+  "prescriptions": {
+    "helen_tiene": {
+      "workout_split": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "progression": {},
+      "workouts": {
+        "A": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "Agachamento Rack",
+              "method": "Tradicional",
+              "sets": 2,
+              "interval": "1'30\" - 2'"
+            },
+            {
+              "name": "Cadeira Extensora",
+              "method": "Tradicional",
+              "sets": 2,
+              "interval": "1'30\" - 2'"
+            },
+            {
+              "name": "Cadeira Abdutora",
+              "method": "Tradicional",
+              "sets": 2,
+              "reps": "15-20",
+              "interval": "1'"
+            },
+            {
+              "name": "Panturrilha Banco",
+              "method": "Tradicional",
+              "sets": 2,
+              "reps": "10+10",
+              "interval": "1'"
+            }
+          ]
+        },
+        "B": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "Crucifixo Inverso Máquina Pegada Neutra",
+              "method": "Tradicional",
+              "sets": 1,
+              "reps": "15.0",
+              "interval": "1'30\""
+            },
+            {
+              "name": "Extensão da Coluna no Banco Romano",
+              "method": "Tradicional",
+              "sets": 1,
+              "weight": "Peso Corporal (progredir)",
+              "interval": "1'"
+            },
+            {
+              "name": "Remada Baixa Máquina Divergente/Tradicional",
+              "method": "Tradicional",
+              "sets": 2,
+              "interval": "1'30\""
+            },
+            {
+              "name": "Bíceps 45°",
+              "method": "Tradicional",
+              "sets": 2,
+              "interval": "1'"
+            }
+          ]
+        },
+        "C": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "Step Up com Caneleiras",
+              "method": "Tradicional",
+              "sets": 1,
+              "interval": "1'",
+              "observations": "Usar um caixote/banco alto"
+            },
+            {
+              "name": "Hiperextensão de Quadril na Polia Baixa",
+              "method": "Tradicional",
+              "sets": 1,
+              "reps": "15-15",
+              "interval": "1'30\""
+            },
+            {
+              "name": "Glúteo Coice",
+              "method": "Tradicional",
+              "sets": 1,
+              "interval": "1'30\""
+            },
+            {
+              "name": "Mesa Flexora",
+              "method": "DropSet",
+              "sets": 2,
+              "reps": "8+8",
+              "interval": "1'",
+              "observations": "Dropar 1 bloco e fazer as ultimas 8 reps"
+            },
+            {
+              "name": "Panturrilha Joelho Estendido",
+              "method": "Tradicional",
+              "sets": 1,
+              "reps": "15.0",
+              "weight": "15kg cada lado",
+              "interval": "1'"
+            }
+          ]
+        },
+        "D": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "Supino Inclinado Barra",
+              "method": "Tradicional",
+              "sets": 1,
+              "interval": "1'30\""
+            },
+            {
+              "name": "Elevação Frontal + Elevação Lateral",
+              "method": "BiSet",
+              "sets": 1,
+              "reps": "10+10",
+              "weight": "5/3kg",
+              "interval": "1'"
+            },
+            {
+              "name": "Crucifixo Inverso Máquina (Pegada Pronada)",
+              "method": "Tradicional",
+              "sets": 1,
+              "reps": "10+10",
+              "interval": "1'30\""
+            },
+            {
+              "name": "Tríceps Barra Polia Alta",
+              "method": "Tradicional",
+              "sets": 1,
+              "reps": "10-14",
+              "interval": "1'30\""
+            }
+          ]
+        },
+        "E": {
+          "focus": "",
+          "exercises": []
+        }
+      }
+    },
+    "marcus_brisolla": {
+      "workout_split": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "progression": {},
+      "workouts": {
+        "A": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "Puxada Frente Neutra",
+              "method": "Tradicional",
+              "sets": 1,
+              "interval": "1'30\"",
+              "observations": "Utilizar o triângulo, fazer a pedada com o dedo mínimo encostando na haste lateral do triângulo."
+            },
+            {
+              "name": "Agachamento Cálice (Goblet Squat)",
+              "method": "Tradicional",
+              "sets": 1,
+              "weight": "1 Halter de Aprox. 16kg",
+              "interval": "1'30\"",
+              "observations": "Segurar este halter com ambas as mãos encostando os 2 punhos, formando um \"cálice\" com os seus antebraços"
+            },
+            {
+              "name": "Remada Serrote Halter",
+              "method": "Tradicional",
+              "sets": 1,
+              "reps": "8 / 8",
+              "interval": "1'30\"",
+              "observations": "Realizar uma leve rotação das mãos a cada repetição"
+            },
+            {
+              "name": "Cadeira Abdutora",
+              "method": "Tradicional",
+              "sets": 2,
+              "reps": "10-15",
+              "interval": "1'30\""
+            },
+            {
+              "name": "Rosca Banco 45°",
+              "method": "Tradicional",
+              "sets": 2,
+              "weight": "2 halteres de aprox. 7kg",
+              "interval": "1'30\"",
+              "observations": "Deitar em um banco a 45°, segurar ambos os halteres e fazer o movimento de rosca tentando manter os braços (úmero) na vertical em relação ao solo."
+            },
+            {
+              "name": "Rotação de Tronco Polia Média (CORE)",
+              "method": "Tradicional",
+              "sets": 1,
+              "weight": "Aprox. 4 blocos",
+              "interval": "1'",
+              "observations": "Utilizar uma manopla simples, posicionar a polia do crossover na altura do seu peito, gere tensão no cabo tirando os blocos da inércia. Com os cotovelos estendidos faça uma rotação do seu tronco para o lado oposto ao cross, como se fosse realizar uma rebatida no tenis, foque toda a força dessa rotação nas laterais do seu abdômen."
+            },
+            {
+              "name": "Abdominal Curto Máquina Italiana",
+              "method": "Tradicional",
+              "sets": 1,
+              "reps": "10.0",
+              "weight": "42,5 (progredir a partir daqui)",
+              "interval": "1'",
+              "observations": "Ajustar bem o apoio dos ombros, realizar a maior flexão do tronco possível, se conseguir encostar os cotovelos nos joelhos"
+            }
+          ]
+        },
+        "B": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "Supino Inclinado Halteres",
+              "method": "Tradicional",
+              "sets": 1,
+              "weight": "Aprox. 14kg cada halter",
+              "interval": "1'30",
+              "observations": "Banco a mais ou menos 45°, fazer o mesmo movimento do supino."
+            },
+            {
+              "name": "Deadlift",
+              "method": "Tradicional",
+              "sets": 1,
+              "weight": "55kg (total)",
+              "interval": "1'30\"",
+              "observations": "Lombar sempre em posição neutra, maior parte do peso do corpo fica nos calcanhares"
+            },
+            {
+              "name": "Elevação Lateral Halteres",
+              "method": "Tradicional",
+              "sets": 2,
+              "weight": "5/6kg cada halter",
+              "interval": "1'30\"",
+              "observations": "Em pé, realizar a elevação lateral dos halteres com os cotovelos estendidos o tempo todo, não encostar nas coxas ao longo da série para não perder a tensão. O movimento acontece levemente na diagonal."
+            },
+            {
+              "name": "Mesa Flexora",
+              "method": "Tradicional",
+              "sets": 1,
+              "weight": "Aprox. 30kg",
+              "interval": "1'30\"",
+              "observations": "Deitado decúbito ventral (barriga p/ baixo), colocar o aparador no tendão de aquiles. Flexionar os joelhos a 90°, não passe disso para não tirar a frente do quadril do contato com a mesa flexora."
+            },
+            {
+              "name": "Tríceps Testa Barra W",
+              "method": "Tradicional",
+              "sets": 2,
+              "weight": "Aprox. 15kg",
+              "interval": "1'30\"",
+              "observations": "Utilizar a barra W pronta na parte de pesos livres. Deitado em um banco, pegada na largura dos seus ombros, a barra começa acima da sua cabeça, flexione os cotovelos até que ela chegue perto da sua testa. Tente não \"abrir\" os cotovelos para os lados e nem mexa os braços, o movimento acontece em \"parábola\" na vista lateral."
+            },
+            {
+              "name": "Aviãozinho c Halter",
+              "method": "Tradicional",
+              "sets": 2,
+              "weight": "Aprox. 8kg",
+              "interval": "1'",
+              "observations": "Leve flexão de joelho no final de cada repetição para explorar a maior amplitude possível.\nSegurar o halter na mão oposta a perna que esteja fazendo o exercício."
+            }
+          ]
+        },
+        "C": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "Crucifixo Inverso Máquina",
+              "method": "Tradicional",
+              "sets": 2,
+              "weight": "Menos carga que o anterior",
+              "interval": "1'30",
+              "observations": "Ao contrário, agora mexa no ajuste superior da máquina e sente de frente para o encosto, você vai fazer a pegada na frente do corpo e abrir os braços para trás, fazendo força bem no meio das costas (trapézios e rombóides)."
+            },
+            {
+              "name": "Pulldown Polia Alta (Corda)",
+              "method": "Tradicional",
+              "sets": 1,
+              "weight": "Aprox. 7 blocos",
+              "interval": "1'30\"",
+              "observations": "Prenda uma corda na polia alta, segure-a e dê 2 passos para trás, deixe o seu tronco inclinado à frente a aprox. 45°.  Agora, tentando manter os cotovelos estendidos, você realizará uma \"parábola\", trazendo a corda para baixo e para trás, em direção ao seu quadril."
+            },
+            {
+              "name": "Panturrilha Joelho Estendido",
+              "method": "Tradicional",
+              "sets": 2,
+              "reps": "12-16",
+              "weight": "Aprox. 15kg cada lado",
+              "interval": "1'",
+              "observations": "Fazer o alongamento completo das panturrilhas a cada repetição."
+            },
+            {
+              "name": "Rosca Punho Invertida",
+              "method": "Tradicional",
+              "sets": 1,
+              "reps": "12-16",
+              "weight": "Aprox. 15kg (barras prontas)",
+              "interval": "1'",
+              "observations": "Sentado, apoie os antebraços nas coxas e joelhos segurando a barra com as palmas das mãos para baixo. Agora flexione os punhos o máximo possível (alongando), deixando as mãos livres para descerem à frente dos seus joelhos, e faça a contração estendendo os punhos o mais alto possível subindo a carga acima da altura dos joelhos (como se estivesse acelerando uma moto). "
+            },
+            {
+              "name": "Landmine Press Ajoelhado",
+              "method": "Tradicional",
+              "sets": 1,
+              "reps": "8 / 8",
+              "weight": "Aprox. 15kg em anilhas ",
+              "interval": "1'",
+              "observations": "Procure o apoio da remada cavalinho. Coloque lá uma barra grande, essa barra ficará com a ponta fixa no chão. Adicione 10 ou 15kg em anilhas. Agora, com o joelho direito no chão (colchonete), você vai segurar a ponta da barra somente com a mão direita (mesmo lado do joelho no chão), e fazer um movimento de empurrar para cima e levemente para a frente, volte a barra ao ombro para iniciar a próxima repetição. "
+            }
+          ]
+        },
+        "D": {
+          "focus": "",
+          "exercises": []
+        },
+        "E": {
+          "focus": "",
+          "exercises": []
+        }
+      }
+    },
+    "yasmin_de_nadai": {
+      "workout_split": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "progression": {},
+      "workouts": {
+        "A": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "Afundo Halteres c/ Step",
+              "method": "Tradicional",
+              "sets": 1,
+              "weight": "8.0",
+              "interval": "1'30\"",
+              "observations": "Colocar o step na frente e atrás resolveu a dor no joelho "
+            },
+            {
+              "name": "Leg Horizontal",
+              "method": "Tradicional",
+              "sets": 1,
+              "reps": "12.0",
+              "weight": "92.5",
+              "interval": "1'30\""
+            },
+            {
+              "name": "Cadeira Extensora",
+              "method": "Tradicional",
+              "sets": 2,
+              "reps": "14.0",
+              "weight": "45.0",
+              "interval": "1'"
+            },
+            {
+              "name": "Cadeira Abdutora",
+              "method": "Tradicional",
+              "sets": 2,
+              "reps": "14.0",
+              "weight": "45.0",
+              "interval": "1'"
+            }
+          ]
+        },
+        "B": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "Remada Baixa Triângulo",
+              "method": "Tradicional",
+              "sets": 1,
+              "reps": "12.0",
+              "weight": "25.0",
+              "interval": "1'30\"",
+              "observations": "Puxar na região do umbigo"
+            },
+            {
+              "name": "Crucifixo Inverso Máquina",
+              "method": "Tradicional",
+              "sets": 2,
+              "reps": "12.0",
+              "weight": "15.0",
+              "interval": "1'30\"",
+              "observations": "Abre o braço o máximo possível; braço alinhado com o ombro"
+            },
+            {
+              "name": "Bíceps Banco 45°",
+              "method": "Tradicional",
+              "sets": 1,
+              "reps": "8.0",
+              "weight": "4.0",
+              "interval": "1'30\"",
+              "observations": "Inclinar um banco a 45°, deixar os braços para trás da linha do tronco (alongando os bíceps) e realizar a flexão dos cotovelos até os halteres chegarem próx aos ombros."
+            }
+          ]
+        },
+        "C": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "Stiff Barra",
+              "method": "Tradicional",
+              "sets": 1,
+              "reps": "12.0",
+              "weight": "Aprox. 30-40kg total",
+              "interval": "1'30",
+              "observations": "Quando esqueço a bandagem, preciso reduzir peso"
+            },
+            {
+              "name": "Glúteo Coice Crossover",
+              "method": "Tradicional",
+              "sets": 2,
+              "reps": "12.0",
+              "weight": "10.0",
+              "interval": "1'30\"",
+              "observations": "Inclinar o tronco quase paralelo com o chão; trazer joelho ate passar da perna; no final girar o pé para fora"
+            },
+            {
+              "name": "Recuo no Smith",
+              "method": "Tradicional",
+              "sets": 1,
+              "interval": "1'"
+            },
+            {
+              "name": "Cadeira Flexora",
+              "method": "Tradicional",
+              "sets": 1,
+              "reps": "16.0",
+              "weight": "60.0",
+              "interval": "1'",
+              "observations": "Anotar a carga, realizar o máximo de peso possível para as 12-16 repetições. Deixando no máximo 2 repetições de reserva."
+            }
+          ]
+        },
+        "D": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "Elevação Lateral Halteres",
+              "method": "Tradicional",
+              "sets": 2,
+              "reps": "12.0",
+              "weight": "4.0",
+              "interval": "1'30\"",
+              "observations": "Braço lateral mesmo"
+            },
+            {
+              "name": "FacePull Polia Alta (corda)",
+              "method": "Tradicional",
+              "sets": 1,
+              "weight": "Aprox 3 Blocos no Crossover",
+              "interval": "1'",
+              "observations": "Segurar a corda com as palmas das mãos voltadas uma a outra, realizar a puxada \"abrindo\" os cotovelos para os lados na altura dos ombros, focando bem no deltóide posterior"
+            },
+            {
+              "name": "Panturrilha Máquina em Pé",
+              "method": "Tradicional",
+              "sets": 1,
+              "reps": "15.0",
+              "weight": "25.0",
+              "interval": "1'",
+              "observations": "Amplitude total"
+            }
+          ]
+        },
+        "E": {
+          "focus": "",
+          "exercises": []
+        }
+      }
+    },
+    "suellen_tremarin": {
+      "workout_split": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "workouts": {
+        "A": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "Agachamento Búlgaro Halteres",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "2025-08-08 00:00:00",
+                "peso": "18-20kg cada halter",
+                "intervalo": "1' - 1'30\""
+              }
+            },
+            {
+              "name": "Remada Serrote Vertical",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "2025-08-08 00:00:00",
+                "peso": "14-16kg cada halter",
+                "intervalo": "1'30\""
+              }
+            },
+            {
+              "name": "Leg 45°",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "10-14",
+                "intervalo": "1'30\"",
+                "obs": "(pés ligeiramente para baixo na plataforma)"
+              }
+            },
+            {
+              "name": "Puxada Frente Pronada Aberta",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "2025-08-06 00:00:00",
+                "peso": "Máx",
+                "intervalo": "1'30\"",
+                "obs": "Fazer a pegada com a palma das mãos para frente e um pouco mais afastada que a largura dos seus ombros"
+              }
+            },
+            {
+              "name": "Cadeira Extensora + Rosca Direta Halteres",
+              "method": "BiSet",
+              "series_data": {
+                "rep": "12+12",
+                "peso": "Máx na Extensora e aprox. 7-9kg halteres",
+                "intervalo": "1'30\""
+              }
+            },
+            {
+              "name": "Facepull + Crucifixo Inverso Halteres",
+              "method": "BiSet",
+              "series_data": {
+                "rep": "12+12",
+                "peso": "Aprox 4 blocos Facepull e  5-8kg no Crucifixo",
+                "intervalo": "1'30\"",
+                "obs": "Facepull polia na altura do seu rosto e crucifixo halteres livre, manter a pegada em neutro (palma das mãos uma de frente para a outra) no crucifixo"
+              }
+            }
+          ]
+        },
+        "B": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "Deadlift Barra",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "2025-08-06 00:00:00",
+                "peso": "Máx",
+                "intervalo": "2'"
+              }
+            },
+            {
+              "name": "Elevação Frontal + Desenvolvimento de Ombros Barra",
+              "method": "BiSet",
+              "series_data": {
+                "rep": "10+10",
+                "peso": "Aprox 6-8kg na Elevação e 20-24 no desenvolvimento",
+                "intervalo": "1'30\""
+              }
+            },
+            {
+              "name": "Cadeira Flexora Tronco inclinado à frente",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "10-14",
+                "peso": "Máx",
+                "intervalo": "1'30\"",
+                "obs": "Deixar a coluna bem retinha durante toda a execução. Inclinar o tronco à frente vai colocar os posteriores de coxa em uma posição de alongamento maior, dificultando um pouco mais o exercício."
+              }
+            },
+            {
+              "name": "Elevação Lateral Unilateral Polia Baixa",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "12 - 12",
+                "intervalo": "1'30\"",
+                "obs": "Deixar o cabo passar por trás do seu corpo e realizar a elevação lateral usando a manopla."
+              }
+            },
+            {
+              "name": "Mesa Flexora + Abdominal Curto",
+              "method": "BiSet",
+              "series_data": {
+                "rep": "15 + 20",
+                "intervalo": "1'30\""
+              }
+            },
+            {
+              "name": "Flexão de Braços + Russian Twists com KB",
+              "method": "BiSet",
+              "series_data": {
+                "rep": "6-8 + 30",
+                "intervalo": "1'30\"",
+                "obs": "Na flexão, deixar os cotovelos a mais ou menos 45° em relação ao tronco. Nos russian twists, contar de forma unilateral, segurando 1 KB com as 2 mãos"
+              }
+            }
+          ]
+        },
+        "C": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "Mesa Flexora",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "2025-12-10 00:00:00",
+                "peso": "35.0",
+                "intervalo": "1'30\"",
+                "obs": "Segurar 2\" a cada repetição quando os joelhos chegarem a 90°"
+              }
+            },
+            {
+              "name": "Cadeira Flexora",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "2025-12-10 00:00:00",
+                "peso": "45.0",
+                "intervalo": "1'30\""
+              }
+            },
+            {
+              "name": "Hip Thrust",
+              "method": "Pico de Contração",
+              "series_data": {
+                "rep": "2025-12-10 00:00:00",
+                "peso": "32.0",
+                "intervalo": "1'30\"",
+                "obs": "Quando realizar a amplitude máxima da abdução do quadril, segurar a contração por 2\" a cada repetição"
+              }
+            },
+            {
+              "name": "Abdução de Quadril + Extensão de Quadril Polia Baixa",
+              "method": "Pico de Contração",
+              "series_data": {
+                "rep": "2025-10-08 00:00:00",
+                "peso": "30.0",
+                "intervalo": "1'30\" - 2'",
+                "obs": "Quando realizar a amplitude máxima da extensão do quadril, segurar a contração por 2\" a cada repetição"
+              }
+            },
+            {
+              "name": "Panturrilha Máquina em Pé",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "12+12",
+                "peso": "20.0",
+                "intervalo": "1'",
+                "obs": "X"
+              }
+            }
+          ]
+        },
+        "D": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "Crucifixo Máquina + Elevação Frontal",
+              "method": "Bi-Set",
+              "series_data": {
+                "rep": "6+12",
+                "peso": "25.0",
+                "intervalo": "1'30\""
+              }
+            },
+            {
+              "name": "Desenvolvimento de Ombros Halteres",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "2025-10-10 00:00:00",
+                "peso": "15+7.5",
+                "intervalo": "1'"
+              }
+            },
+            {
+              "name": "Elevação Lateral Crossover",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "10-15",
+                "peso": "43.0",
+                "intervalo": "1'30\""
+              }
+            },
+            {
+              "name": "Tríceps Barra Crossover",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "10-15",
+                "peso": "6.0",
+                "intervalo": "1'30\""
+              }
+            },
+            {
+              "name": "Recuo no Smith",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "10-15",
+                "peso": "10.0",
+                "intervalo": "1'30\""
+              }
+            },
+            {
+              "name": "3 Séries: 10 Abdominais V + 15 Abdominais Curtos + 30\"/30\" Prancha Lateral",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "10-15",
+                "peso": "10kg",
+                "intervalo": "1'30\""
+              }
+            }
+          ]
+        },
+        "E": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "Sumo Deadlift nos Caixotes",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "12-16",
+                "peso": "50kg",
+                "intervalo": "1'30"
+              }
+            },
+            {
+              "name": "Cadeira Abdutora",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "10-14",
+                "peso": "12kg"
+              }
+            },
+            {
+              "name": "Glúteo Coice Crossover",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "12-16",
+                "peso": "KB 16kg",
+                "intervalo": "1'30\"",
+                "obs": "Se possível, usar um calço no calcanhar para realizar o movimento com o tronco bem ereto."
+              }
+            },
+            {
+              "name": "Leg 45°",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "10-14",
+                "peso": "Aprox. 5kg",
+                "intervalo": "1'30\"",
+                "cadencia": "Deixar o banco inclinado a 45°, realizar o exercício da rosca direta com os braços atrás da linha do tronco (bíceps em condição de alongamento)."
+              }
+            },
+            {
+              "name": "25'-30' Cardio Intenso (corrida, bike, remo ou caminhada inclinada) - 155-180bpm",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "15-20",
+                "peso": "32.0",
+                "intervalo": "1'30\"",
+                "cadencia": "Quando estiver chegando próxima a falha, realizar de 3 a 5 repetições parciais a mais."
+              }
+            },
+            {
+              "name": "25'-30' Cardio Intenso (corrida ou caminhada inclinada) - 155-180bpm",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "15/15",
+                "peso": "4 blocos",
+                "intervalo": "1'"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "jheni_adam": {
+      "workout_split": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "workouts": {
+        "A": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "Puxada Frente Pegada Supinada",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "2023-12-08 00:00:00",
+                "intervalo": "1'30"
+              }
+            },
+            {
+              "name": "Agachamento Livre Barra",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "2023-12-08 00:00:00",
+                "intervalo": "1'30"
+              }
+            },
+            {
+              "name": "Remada Baixa Neutra",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "2023-12-08 00:00:00",
+                "intervalo": "1'30\" - 2'"
+              }
+            },
+            {
+              "name": "Cadeira Extensora",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "2024-06-06 00:00:00",
+                "intervalo": "1'",
+                "obs": "X"
+              }
+            },
+            {
+              "name": "Bíceps Barra Polia Baixa (Rosca Direta)",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "10-14",
+                "intervalo": "1'"
+              }
+            }
+          ]
+        },
+        "B": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "Levantamento Terra Barra",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "2025-10-06 00:00:00",
+                "intervalo": "1'30",
+                "obs": "X"
+              }
+            },
+            {
+              "name": "Desenvolvimento de Ombros Halter",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "2023-12-08 00:00:00",
+                "peso": "Aprox. 6-8kg cada halter",
+                "intervalo": "1'30\""
+              }
+            },
+            {
+              "name": "Elevação Pelvica Máquina (Hip Thrust)",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "2023-12-08 00:00:00",
+                "intervalo": "1'30\""
+              }
+            },
+            {
+              "name": "Cadeira Flexora",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "10-14",
+                "intervalo": "1'",
+                "cadencia": "X"
+              }
+            },
+            {
+              "name": "Tríceps Barra Polia Alta",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "10-14",
+                "intervalo": "1'",
+                "cadencia": "X"
+              }
+            }
+          ]
+        },
+        "C": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "[Unknown]",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "2023-12-08 00:00:00",
+                "intervalo": "1'30"
+              }
+            },
+            {
+              "name": "[Unknown]",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "2023-12-08 00:00:00",
+                "intervalo": "2'",
+                "cadencia": "X"
+              }
+            },
+            {
+              "name": "[Unknown]",
+              "method": "Bi-Set",
+              "series_data": {
+                "rep": "12+8",
+                "intervalo": "1'30\""
+              }
+            },
+            {
+              "name": "[Unknown]",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "X",
+                "intervalo": "1'"
+              }
+            },
+            {
+              "name": "[Unknown]",
+              "method": "DropSet",
+              "series_data": {
+                "rep": "10+10",
+                "intervalo": "1'"
+              }
+            }
+          ]
+        },
+        "D": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "[Unknown]",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "2023-12-08 00:00:00",
+                "peso": "Aprox. 98-108kg",
+                "intervalo": "2'"
+              }
+            },
+            {
+              "name": "[Unknown]",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "2023-12-08 00:00:00",
+                "peso": "60kg",
+                "intervalo": "1'30\""
+              }
+            },
+            {
+              "name": "[Unknown]",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "2023-12-08 00:00:00",
+                "intervalo": "1'",
+                "cadencia": "X"
+              }
+            },
+            {
+              "name": "[Unknown]",
+              "method": "DropSet",
+              "series_data": {
+                "rep": "10+10",
+                "peso": "Aprox 10/8 blocos",
+                "intervalo": "1'30\"",
+                "obs": "X"
+              }
+            },
+            {
+              "name": "[Unknown]",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "10-14",
+                "peso": "125 bananas",
+                "intervalo": "1'30\"",
+                "obs": "X"
+              }
+            }
+          ]
+        },
+        "E": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "[Unknown]",
+              "method": "BiSet",
+              "series_data": {
+                "rep": "2023-12-08 00:00:00",
+                "intervalo": "1'30"
+              }
+            },
+            {
+              "name": "[Unknown]",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "2023-12-08 00:00:00",
+                "intervalo": "1'30\""
+              }
+            },
+            {
+              "name": "[Unknown]",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "2023-12-08 00:00:00",
+                "intervalo": "1'30\"",
+                "cadencia": "X"
+              }
+            },
+            {
+              "name": "[Unknown]",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "10-14",
+                "intervalo": "1'30\"",
+                "obs": "X"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rebeca_sauwen": {
+      "workout_split": [
+        "A",
+        "Casa",
+        "C",
+        "D"
+      ],
+      "workouts": {
+        "A": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "Puxada Frente Pegada Pronada",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "2025-08-06 00:00:00",
+                "peso": "35.0",
+                "intervalo": "45\"",
+                "obs": "Pegada pronada é quando a palma das mãos está para frente, o afastamento deve ser na largura dos seus ombros."
+              }
+            },
+            {
+              "name": "Agachamento Cálice com Halter",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "2023-12-08 00:00:00",
+                "peso": "1 Halter de 14-18kg",
+                "intervalo": "1'30\" - 2'",
+                "obs": "Realizar a \"pegada\" com o halter na vertical, usando a palma das mãos formando um cálice com as mãos e os antebraços, o halter fica a frente do seu tronco, na altura do seu peito/ombros."
+              }
+            },
+            {
+              "name": "Desenvolvimento de Ombros na Máquina",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "2025-10-08 00:00:00",
+                "peso": "10.0",
+                "intervalo": "1'30\" - 2'"
+              }
+            },
+            {
+              "name": "Cadeira Extensora",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "2025-12-10 00:00:00",
+                "peso": "25.0",
+                "intervalo": "1'30\"",
+                "obs": "Tentar trabalhar de forma dinâmica todas as repetições, achar uma carga que não gere dor e pode progredir o peso entre as séries."
+              }
+            },
+            {
+              "name": "Remada Serrote com Halter",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "10 / 10",
+                "peso": "Halter de aprox. 12kg",
+                "intervalo": "1'",
+                "obs": "Apoiar uma mão e um joelho em um banco reto, com a outra mão segurar 1 halter e realizar o movimento de remada na vertical, trazendo o halter ao lado das suas costelas. Fazer 10 reps em cada lado"
+              }
+            },
+            {
+              "name": "Cadeira Abdutora",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "10-14",
+                "peso": "50.0",
+                "intervalo": "1'"
+              }
+            }
+          ]
+        },
+        "Casa": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "Agachamento c Halteres + Desenvolvimento de Ombros c/ Halteres",
+              "method": "Bi-Set",
+              "series_data": {
+                "rep": "12 + 10",
+                "peso": "Halter 4kg",
+                "intervalo": "1'",
+                "obs": "X"
+              }
+            },
+            {
+              "name": "Abodminal Remada + Prancha Alta Passando o Halter",
+              "method": "Bi-Set",
+              "series_data": {
+                "rep": "15 + 30",
+                "peso": "Halter 4kg",
+                "intervalo": "1'30\""
+              }
+            },
+            {
+              "name": "Elevaçao Frontal Halteres + Avanços Alternados",
+              "method": "Bi-Set",
+              "series_data": {
+                "rep": "10 + 20",
+                "peso": "Halter 4kg",
+                "intervalo": "1'30\"",
+                "obs": "Para os avanços alternados, você não precisa usar os halteres, somente o peso do corpo."
+              }
+            },
+            {
+              "name": "Abdominal Curto com 1 Halter + Toque nos Ombros alternados",
+              "method": "Bi-Set",
+              "series_data": {
+                "rep": "10 + 20",
+                "intervalo": "1'30\""
+              }
+            }
+          ]
+        },
+        "C": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "[Unknown]",
+              "method": "Pré-Exaustão",
+              "series_data": {
+                "rep": "8+10",
+                "peso": "Halteres de 4/5kg para elevação frontal | FIZ 4kg + 10kg",
+                "intervalo": "1'30",
+                "obs": "Realizar a elevação frontal e logo em seguida fazer o desenvolvimento de ombros na máquina, só então, fazer o intervalo de 1'30\""
+              }
+            },
+            {
+              "name": "[Unknown]",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "12.0",
+                "peso": "4kg em cada | FIZ 4kg",
+                "intervalo": "2'",
+                "obs": "X"
+              }
+            },
+            {
+              "name": "[Unknown]",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "15.0",
+                "peso": "Aprox 40kg (a depender do tipo de máquina) | FIZ 45kg",
+                "intervalo": "1'30\"",
+                "obs": "Ache a carga que fique desafiador fazer as 15reps"
+              }
+            },
+            {
+              "name": "[Unknown]",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "12.0",
+                "peso": "Corporal | ok",
+                "intervalo": "1'"
+              }
+            }
+          ]
+        },
+        "D": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "[Unknown]",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "2023-12-08 00:00:00",
+                "peso": "Aprox. 98-108kg",
+                "intervalo": "2'"
+              }
+            },
+            {
+              "name": "[Unknown]",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "2023-12-08 00:00:00",
+                "intervalo": "1'30\""
+              }
+            },
+            {
+              "name": "[Unknown]",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "2023-12-08 00:00:00",
+                "intervalo": "1'",
+                "obs": "X"
+              }
+            },
+            {
+              "name": "[Unknown]",
+              "method": "DropSet",
+              "series_data": {
+                "rep": "10+10",
+                "intervalo": "1'30\"",
+                "obs": "X"
+              }
+            },
+            {
+              "name": "[Unknown]",
+              "method": "Tradicional",
+              "series_data": {
+                "rep": "10-14",
+                "intervalo": "1'30\"",
+                "obs": "X"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "helmuth": {
+      "workouts": {
+        "A": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "Puxada Frente Supinada",
+              "method": "Tradicional 6-8",
+              "sets": "",
+              "reps": "",
+              "interval": "2'",
+              "observations": "Palma das mãos para trás para ter mais auxílio do bíceps."
+            },
+            {
+              "name": "Remada Serrote Halteres",
+              "method": "Tradicional 10 Cada braço",
+              "sets": "",
+              "reps": "10 Cada Braço",
+              "interval": "1'30\"",
+              "observations": ""
+            },
+            {
+              "name": "Levantamento Terra",
+              "method": "Tradicional 5-7",
+              "sets": "",
+              "reps": "5-7 repetições",
+              "interval": "1'30\"",
+              "observations": "Usar a barra reta, iniciar o movimento com a barra no chão, aprox. no meio das canelas. Levantar com a coluna reta e a barra rente ao corpo até a altura do quadril."
+            },
+            {
+              "name": "Rosca Scott Barra",
+              "method": "Tradicional\n8 a 10",
+              "sets": "",
+              "reps": "8 - 10",
+              "interval": "1'30\"",
+              "observations": ""
+            }
+          ]
+        },
+        "B": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "Supino Inclinado Barra",
+              "method": "Tradicional 8-10",
+              "sets": "",
+              "reps": "",
+              "interval": "2'",
+              "observations": "Descer a barra até no máximo a altura do queixo, não precisa encostar no peito."
+            },
+            {
+              "name": "Crucifixo Máquina",
+              "method": "Tradicional \n8-10",
+              "sets": "",
+              "reps": "",
+              "interval": "1'30\"",
+              "observations": "X"
+            },
+            {
+              "name": "Cadeira Flexora",
+              "method": "Tradicional 8-12",
+              "sets": "",
+              "reps": "",
+              "interval": "1'30\"",
+              "observations": "Manter a coluna reta durante toda a execução do exercício"
+            },
+            {
+              "name": "Cadeira Extensora",
+              "method": "Tradicional 8-12",
+              "sets": "",
+              "reps": "",
+              "interval": "1'30\"",
+              "observations": "Realizar 8 reps, diminuir o peso e fazer mais 8 para acumular mais volume de treino de tríceps"
+            }
+          ]
+        },
+        "C": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "Supino Reto Barra",
+              "method": "Tradicional 8-10",
+              "sets": "",
+              "reps": "",
+              "interval": "2'",
+              "observations": ""
+            },
+            {
+              "name": "Desenvolvimento de Ombros Halteres + Elevação Lateral",
+              "method": "Bi-Set \n8+10",
+              "sets": "",
+              "reps": "8+10",
+              "interval": "1'30\"",
+              "observations": "X"
+            },
+            {
+              "name": "Leg Press",
+              "method": "Tradicional 8-10",
+              "sets": "",
+              "reps": "",
+              "interval": "1'30\"",
+              "observations": "Usar o banco inclinado com o suporte da barra, chegar próximo a linha do queixo e subir a barra completando cada repetição"
+            },
+            {
+              "name": "Tríceps Barra no Crossover",
+              "method": "DropSet\n8+8",
+              "sets": "",
+              "reps": "",
+              "interval": "1'30\"",
+              "observations": "Realizar 8 reps, diminuir o peso e fazer mais 8 para acumular mais volume de treino de tríceps"
+            }
+          ]
+        }
+      },
+      "workout_split": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    "sibele": {
+      "workouts": {
+        "A": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "Agachamento Bulgaro",
+              "method": "Tradicional 6-8",
+              "sets": "",
+              "reps": "",
+              "interval": "1'",
+              "observations": ""
+            },
+            {
+              "name": "Passada Barra Costas",
+              "method": "Tradicional 16-20",
+              "sets": "",
+              "reps": "16-20",
+              "interval": "1'30\"",
+              "observations": ""
+            },
+            {
+              "name": "Agachamento Livre",
+              "method": "Tradicional 6-8",
+              "sets": "",
+              "reps": "6+8",
+              "interval": "2'",
+              "observations": ""
+            },
+            {
+              "name": "Cadeira Extensora",
+              "method": "DropSet     12 + 8",
+              "sets": "",
+              "reps": "12 + 8",
+              "interval": "1'",
+              "observations": ""
+            },
+            {
+              "name": "Leg 45°",
+              "method": "Cluster Set\n8+8",
+              "sets": "",
+              "reps": "8+8",
+              "interval": "1'30\"",
+              "observations": "Cluster set consiste em realizar as primeiras repetições, fazer um intervalo curto de 20\" e depois realizar as próximas para fechar a série"
+            },
+            {
+              "name": "Agachamento Bulgaro Halteres Parcial  (70º)",
+              "method": "Tradicional",
+              "sets": "",
+              "reps": "",
+              "interval": "1'30\"",
+              "observations": ""
+            },
+            {
+              "name": "Cadeira Extensora Parcial (90-60º) + Agachamento Peso Corporal",
+              "method": "Pré Exaustão",
+              "sets": "",
+              "reps": "10 + 20",
+              "interval": "1'",
+              "observations": "Sair da extensora e realizar agachamento parcial com o peso do corpo"
+            },
+            {
+              "name": "Leg Press + Agachamento Isométrico",
+              "method": "Tradicional",
+              "sets": "",
+              "reps": "12 + 30''",
+              "interval": "1'",
+              "observations": "Cuidar para não fazer uma extensão dos joelhos brusca, isometria do agachamento um pouco acima dos 90°"
+            },
+            {
+              "name": "Cadeira Abdutora Tronco inclinado a Frente + Abdominal Remada",
+              "method": "Tradicional",
+              "sets": "",
+              "reps": "12-16",
+              "interval": "1'30\"",
+              "observations": "Apoiar a lateral do joelho no aparador da cadeira, inclinar o tronco bem a frente e realizar o afastamento das pernas"
+            }
+          ]
+        },
+        "B": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "Remada Curvada Supinada Barra + Stiff",
+              "method": "Bi-Set",
+              "sets": "",
+              "reps": "8+12",
+              "interval": "1'30''",
+              "observations": "Se necessário, usar um strap para sustentação da barra nas mãos"
+            },
+            {
+              "name": "Crucifixo Inverso + Elevação Lateral",
+              "method": "Bi-Set",
+              "sets": "",
+              "reps": "12+12",
+              "interval": "1'30\"",
+              "observations": "Realizar o Crucifixo Inverso e a Elevação com a mesma carga, sem intervalo entre eles"
+            },
+            {
+              "name": "Agachamento Cálice (70º) + Prancha Toque no Ombro",
+              "method": "Bi-Set",
+              "sets": "",
+              "reps": "15 agachamentos + 30 toques no ombro alternados em prancha",
+              "interval": "1'",
+              "observations": ""
+            }
+          ]
+        },
+        "C": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "Mesa Flexora Parcial (90-60º)",
+              "method": "Tradicional",
+              "sets": "",
+              "reps": "12-16",
+              "interval": "1'30\"",
+              "observations": ""
+            },
+            {
+              "name": "Stiff",
+              "method": "Tradicional",
+              "sets": "",
+              "reps": "10-14",
+              "interval": "1'30\"",
+              "observations": ""
+            },
+            {
+              "name": "Hip Thrust Barra",
+              "method": "Tradicional",
+              "sets": "",
+              "reps": "",
+              "interval": "1'30\"",
+              "observations": ""
+            },
+            {
+              "name": "Glúteo 4 Apoios Caneleira",
+              "method": "Tradicional",
+              "sets": "",
+              "reps": "1'30\"",
+              "interval": "",
+              "observations": ""
+            }
+          ]
+        }
+      },
+      "workout_split": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    "alice_brisolla": {
+      "workouts": {
+        "A": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "Step Up Caixote com Caneleiras",
+              "method": "Tradicional",
+              "sets": "",
+              "reps": "12 / 12",
+              "interval": "1'30\" - 2'",
+              "observations": ""
+            },
+            {
+              "name": "Pull Down Corda + FacePull",
+              "method": "Bi-Set",
+              "sets": "",
+              "reps": "12 + 12",
+              "interval": "1'30\"",
+              "observations": ""
+            },
+            {
+              "name": "Cossack Squat",
+              "method": "Tradicional",
+              "sets": "",
+              "reps": "10 / 10",
+              "interval": "1'30\"",
+              "observations": ""
+            },
+            {
+              "name": "Cadeira Abdutora c/ Tronco Inclinado à Frente",
+              "method": "Tradicional",
+              "sets": "",
+              "reps": "15.0",
+              "interval": "1'30\"",
+              "observations": "X"
+            },
+            {
+              "name": "Cadeira Extensora",
+              "method": "Tradicional",
+              "sets": "",
+              "reps": "15.0",
+              "interval": "1'30\"",
+              "observations": "X"
+            }
+          ]
+        },
+        "B": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "Deadlift com Halteres*",
+              "method": "Tradicional",
+              "sets": "",
+              "reps": "8 - 10",
+              "interval": "1'30 - 2'",
+              "observations": "Realizar 2 séries de 12 repetiçoes de aquecimeto, não fazendo a rep com força total."
+            },
+            {
+              "name": "Arnold Press + Elevação Lateral",
+              "method": "Tradicional",
+              "sets": "",
+              "reps": "15.0",
+              "interval": "1'30",
+              "observations": "X"
+            },
+            {
+              "name": "Mesa Flexora",
+              "method": "Tradicional",
+              "sets": "",
+              "reps": "8 / 8",
+              "interval": "1'30\"",
+              "observations": "X"
+            },
+            {
+              "name": "Lateral Walk com Miniband",
+              "method": "Tradicional",
+              "sets": "",
+              "reps": "12 / 12",
+              "interval": "1'",
+              "observations": ""
+            },
+            {
+              "name": "Glúteo Coice Crossover",
+              "method": "Tradicional",
+              "sets": "",
+              "reps": "12 - 16",
+              "interval": "1'30\"",
+              "observations": ""
+            }
+          ]
+        },
+        "C": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "Desenvolvimento Arnold Halteres",
+              "method": "Tradicional",
+              "sets": "",
+              "reps": "",
+              "interval": "1'40\"",
+              "observations": "2 Séries de aquecimento: 15 e 12 reps"
+            },
+            {
+              "name": "Elevação Lateral Halteres",
+              "method": "Tradicional",
+              "sets": "",
+              "reps": "",
+              "interval": "1'30\"",
+              "observations": ""
+            },
+            {
+              "name": "Cadeira Adutora",
+              "method": "Tradicional",
+              "sets": "",
+              "reps": "10 - 12",
+              "interval": "1'30\"",
+              "observations": ""
+            },
+            {
+              "name": "Panturrilha em Pé Máquina",
+              "method": "Tradicional",
+              "sets": "",
+              "reps": "15.0",
+              "interval": "2'",
+              "observations": ""
+            },
+            {
+              "name": "Hiperextensão de Quadril na Polia Baixa",
+              "method": "Tradicional",
+              "sets": "",
+              "reps": "15 / 15",
+              "interval": "2'",
+              "observations": ""
+            }
+          ]
+        },
+        "D": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "Deadlift Barra",
+              "method": "Tradicional",
+              "sets": "",
+              "reps": "",
+              "interval": "2'",
+              "observations": ""
+            },
+            {
+              "name": "Mesa Flexora",
+              "method": "Tradicional",
+              "sets": "",
+              "reps": "",
+              "interval": "1'30\"",
+              "observations": ""
+            },
+            {
+              "name": "Bíceps 45°",
+              "method": "Tradicional",
+              "sets": "",
+              "reps": "",
+              "interval": "1'30\"",
+              "observations": ""
+            },
+            {
+              "name": "Tríceps Francesa",
+              "method": "Tradicional",
+              "sets": "",
+              "reps": "",
+              "interval": "1'30\"",
+              "observations": ""
+            },
+            {
+              "name": "Sumo Deadlift com Anilhas",
+              "method": "Tradicional",
+              "sets": "",
+              "reps": "15.0",
+              "interval": "1'30\"",
+              "observations": ""
+            }
+          ]
+        },
+        "E": {
+          "focus": "",
+          "exercises": [
+            {
+              "name": "Agachamento Búlgaro com Halteres",
+              "method": "Tradicional",
+              "sets": "",
+              "reps": "",
+              "interval": "1'30\"",
+              "observations": ""
+            },
+            {
+              "name": "Elevação Frontal com Halteres",
+              "method": "Tradicional",
+              "sets": "",
+              "reps": "10-14",
+              "interval": "1'",
+              "observations": ""
+            },
+            {
+              "name": "Rosca Inversa Barra / Barra W",
+              "method": "Tradicional",
+              "sets": "",
+              "reps": "",
+              "interval": "1'30\"",
+              "observations": ""
+            },
+            {
+              "name": "Panturrilha em Pé com Halteres",
+              "method": "Tradicional",
+              "sets": "",
+              "reps": "10-14",
+              "interval": "1'30\"",
+              "observations": ""
+            },
+            {
+              "name": "Abdominal Máquina / Prancha com Pés em Cima do Banco",
+              "method": "BiSet",
+              "sets": "",
+              "reps": "12+12",
+              "interval": "1'30\"",
+              "observations": ""
+            }
+          ]
+        }
+      },
+      "workout_split": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    "allan_gorski": {
+      "workouts": {
+        "A": {
+          "focus": null,
+          "exercises": [
+            {
+              "name": "Puxada Frente Pegada Supinada",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "interval": "1'30"
+                }
+              }
+            },
+            {
+              "name": "Remada Máquina Pegada Neutra",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "interval": "1'30"
+                }
+              }
+            },
+            {
+              "name": "Agachamento Smith",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "interval": "1'30\" - 2'"
+                }
+              }
+            },
+            {
+              "name": "Avanço com Halteres",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "interval": "1'",
+                  "obs": "X"
+                },
+                "serie_4": {
+                  "reps": "X"
+                }
+              }
+            },
+            {
+              "name": "Cadeira Extensora",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "reps": "10-14",
+                  "interval": "1'"
+                }
+              }
+            },
+            {
+              "name": "Preventivo: \n3x 10 / 10  Aviãozinho\n20 Elevações Tibial Anterior\n30 Toques no Ombro alt.",
+              "method": "Tradicional",
+              "series": {}
+            }
+          ]
+        },
+        "B": {
+          "focus": null,
+          "exercises": [
+            {
+              "name": "Supino Reto Máquina",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "interval": "1'30",
+                  "obs": "X"
+                }
+              }
+            },
+            {
+              "name": "Desenvolvimento de Ombros Halter",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "weight": "Aprox. 10-12kg cada halter",
+                  "interval": "1'30\""
+                },
+                "serie_4": {
+                  "reps": "X"
+                }
+              }
+            },
+            {
+              "name": "Levantamento Terra Barra",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "interval": "1'30\""
+                }
+              }
+            },
+            {
+              "name": "Cadeira Flexora",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "reps": "10-14",
+                  "interval": "1'",
+                  "obs": "X"
+                },
+                "serie_4": {
+                  "reps": "X"
+                }
+              }
+            },
+            {
+              "name": "Tríceps Barra Polia Alta",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "reps": "10-14",
+                  "interval": "1'",
+                  "obs": "X"
+                },
+                "serie_4": {
+                  "reps": "X"
+                }
+              }
+            },
+            {
+              "name": "Preventivo: \n10 / 10 Elevação Pélvica Unilateral\n30\"/30\" Prancha Lateral",
+              "method": "Tradicional",
+              "series": {}
+            }
+          ]
+        }
+      }
+    },
+    "jairo": {
+      "workouts": {
+        "A": {
+          "focus": null,
+          "exercises": [
+            {
+              "name": "Pull Down",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "weight": "9 blocos",
+                  "interval": "1'30"
+                }
+              }
+            },
+            {
+              "name": "Puxada Frente Neutra Máquina",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "weight": "170.0",
+                  "interval": "1'30\" - 2'"
+                },
+                "serie_4": {
+                  "reps": "X"
+                }
+              }
+            },
+            {
+              "name": "Remada Curvada",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "interval": "1'30\" - 2'"
+                }
+              }
+            },
+            {
+              "name": "Serrote Vertical",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "interval": "1'",
+                  "obs": "X"
+                },
+                "serie_4": {
+                  "reps": "X"
+                }
+              }
+            },
+            {
+              "name": "Rosca 45",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "reps": "10-14",
+                  "interval": "1'"
+                },
+                "serie_4": {
+                  "reps": "X"
+                }
+              }
+            },
+            {
+              "name": "Rosca Scott",
+              "method": "DropSet",
+              "series": {
+                "serie_1": {
+                  "reps": "7+7",
+                  "interval": "1'"
+                },
+                "serie_4": {
+                  "reps": "X"
+                }
+              }
+            }
+          ]
+        },
+        "B": {
+          "focus": null,
+          "exercises": [
+            {
+              "name": "Back Squat",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "interval": "1'30",
+                  "obs": "X"
+                }
+              }
+            },
+            {
+              "name": "Recuo Smith",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "interval": "1'30\"",
+                  "obs": "8-12 em cada perna"
+                },
+                "serie_4": {
+                  "reps": "X"
+                }
+              }
+            },
+            {
+              "name": "Leg Press",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "interval": "1'30\""
+                }
+              }
+            },
+            {
+              "name": "Panturrilha Leg/Máquina",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "reps": "10-14",
+                  "interval": "1'",
+                  "obs": "X"
+                },
+                "serie_4": {
+                  "reps": "X"
+                }
+              }
+            },
+            {
+              "name": "Cadeira Extensora",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "reps": "10-15",
+                  "interval": "1'",
+                  "obs": "X"
+                },
+                "serie_4": {
+                  "reps": "X"
+                }
+              }
+            }
+          ]
+        },
+        "C": {
+          "focus": null,
+          "exercises": [
+            {
+              "name": "Crucifixo Halteres",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "weight": "14kg",
+                  "interval": "1'30"
+                },
+                "serie_4": {
+                  "reps": "X"
+                }
+              }
+            },
+            {
+              "name": "Supino Reto Barra",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "interval": "2'",
+                  "obs": "X"
+                }
+              }
+            },
+            {
+              "name": "Elevação Frontal + Elevação Lateral",
+              "method": "Bi-Set",
+              "series": {
+                "serie_1": {
+                  "reps": "12+12",
+                  "interval": "1'30\""
+                },
+                "serie_4": {
+                  "reps": "X"
+                }
+              }
+            },
+            {
+              "name": "Peitoral Inferior no Crossover",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "weight": "5 blocos",
+                  "interval": "1'"
+                },
+                "serie_4": {
+                  "reps": "X"
+                }
+              }
+            },
+            {
+              "name": "Tríceps Barra W",
+              "method": "DropSet",
+              "series": {
+                "serie_1": {
+                  "reps": "10+10",
+                  "weight": "Aprox 10 blocos, dropar 2",
+                  "interval": "1'"
+                }
+              }
+            },
+            {
+              "name": "Remada Alta Polia Baixa",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "reps": "10-14",
+                  "weight": "Aprox 7 blocos",
+                  "interval": "1'"
+                },
+                "serie_4": {
+                  "reps": "X"
+                }
+              }
+            },
+            {
+              "name": "2ª onda da periodização, entramos com inclinados",
+              "method": "Tradicional",
+              "series": {}
+            }
+          ]
+        },
+        "D": {
+          "focus": null,
+          "exercises": [
+            {
+              "name": "Deadlift",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "weight": "Aprox. 98-108kg",
+                  "interval": "2'"
+                }
+              }
+            },
+            {
+              "name": "Panturrilha Banco",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "weight": "60kg",
+                  "interval": "1'30\""
+                },
+                "serie_4": {
+                  "reps": "X"
+                }
+              }
+            },
+            {
+              "name": "Deltóide Posterior Crossover",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "interval": "1'",
+                  "obs": "X"
+                }
+              }
+            },
+            {
+              "name": "Encolhimento de Ombros Crossover",
+              "method": "DropSet",
+              "series": {
+                "serie_1": {
+                  "reps": "10+10",
+                  "weight": "Aprox 10/8 blocos",
+                  "interval": "1'30\"",
+                  "obs": "X"
+                }
+              }
+            },
+            {
+              "name": "Cadeira Flexora",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "reps": "10-14",
+                  "weight": "125 bananas",
+                  "interval": "1'30\"",
+                  "obs": "X"
+                },
+                "serie_4": {
+                  "reps": "x"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "gaab_maccarini": {
+      "workouts": {
+        "A": {
+          "format": "CrossFit",
+          "content": [
+            "Treino A Gab Maccarini",
+            "Treino C Gab Maccarini",
+            "Aquecimento Articular:\nPunhos, cotovelos, ombros, tronco, quadris, joelhos e tornozelos.",
+            "Mobilidade (alongamento por 1'):\nPsoas; Glúteos; Posteriores de Coxa, Adutores (borboleta) e Lombar",
+            "Aquecimento Articular:\nPunhos, cotovelos, ombros, tronco, quadris, joelhos e tornozelos.",
+            "Mobilidade (alongamento por 1'):\nPsoas; Glúteos; Posteriores de Coxa, Adutores (borboleta) e Lombar",
+            "3 Séries em 6':\n10 Deadlifts (barra + elástico médio)\n5 Remadas Curvadas (barra + elástico médio)\n15 Elevação Pélvica (band médio)\n15 Superman",
+            "3 Séries em 9':\n10 Deadlifts (barra + elástico médio)\n5 Remadas Curvadas (barra + elástico médio)\n15 Elevação Pélvica (band pesado)\n15 Flexões de joelho no Slide",
+            "WOD: \nEMOM 40\"ON / 20\"OFF por 15'\n1) Single Under\n2) Deadlift (barra + elástico pesado)\n3) Remada TRX (tronco a 45° puxando as mãos perto das costelas)",
+            "WOD: \nEMOM 45\"ON / 15\" OFF por 12'\n1) 20 Single Under + 10 Abdominal Crunch\n2) Deadlift (barra + elástico pesado e leve juntos)\n3) Remada TRX (tronco a 45° puxando as mãos em pronação com cotovelos abertos)",
+            "Treino B Gab Maccarini",
+            "Treino D Gab Maccarini",
+            "Aquecimento Articular:\nPunhos, cotovelos, ombros, tronco, quadris, joelhos e tornozelos.",
+            "Mobilidade (alongamento por 1'):\nPsoas; Glúteos; Posteriores de Coxa, Adutores (borboleta) e Lombar",
+            "Aquecimento Articular:\nPunhos, cotovelos, ombros, tronco, quadris, joelhos e tornozelos.",
+            "Mobilidade (alongamento por 1'):\nPsoas; Glúteos; Posteriores de Coxa, Adutores (borboleta) e Peito (barriga para baixo deitando em cima do braço)",
+            "4 Séries em 6':\n10 Front Squats (barra + elástico leve)\n5 Flexões de Braço\n15 Abdominais Curtos (Crunch)",
+            "4 Séries em 8':\n10 Front Squats (barra + elástico leve)\n5 Flexões de Braço\n15 Abdominais Curtos (Crunch)\n20\" Prancha Frontal",
+            "WOD: \nEMOM 40\"ON / 20\"OFF por 15'\n1) Burpee (focando no push, sem \"minhocar\")\n2) Front Squat (barra + elástico médio)\n3) Prancha Frontal alternando o levantamento dos pés no chão",
+            "WOD: \nEMOM 45\"ON / 15\"OFF por 12'\n1) 3 Burpee (focando no push, sem \"minhocar\") + 6 Abdominais Remada\n2) Front Squat (barra + elástico pesado)\n3) Prancha Frontal alternando o levantamento dos pés no chão",
+            "Treino E Gab Maccarini",
+            "Treino G Gab Maccarini",
+            "Aquecimento Articular:\nPunhos, cotovelos, ombros, tronco, quadris, joelhos e tornozelos.",
+            "Mobilidade (alongamento por 1'):\nPsoas; Glúteos; Posteriores de Coxa, Adutores (borboleta) e Lombar",
+            "Aquecimento Articular:\nPunhos, cotovelos, ombros, tronco, quadris, joelhos e tornozelos.",
+            "Mobilidade (alongamento por 1'):\nPsoas; Glúteos; Posteriores de Coxa, Adutores (borboleta) e Lombar",
+            "4 Séries em 10': \n12 Pull Downs (Barra suspensa em suporte alto)\n12 Flexões de joelho no Slide",
+            "3 Séries em 9':\n10 Deadlifts (barra + elástico médio)\n5 Remadas Curvadas (barra + elástico médio)\n15 Elevação Pélvica (band pesado)\n15 Flexões de joelho no Slide",
+            "WOD: \nAMRAP 16'\n16 Remadas Curvadas (barra + elástico pesado)\n16 Sit Ups\n32 Single Unders",
+            "WOD: \nEMOM 45\"ON / 15\" OFF por 12'\n1) 20 Single Under + 10 Abdominal Crunch\n2) Deadlift (barra + elástico pesado e leve juntos)\n3) Remada TRX (tronco a 45° puxando as mãos em pronação com cotovelos abertos)",
+            "Treino F Gab Maccarini",
+            "Treino H Gab Maccarini",
+            "Aquecimento Articular:\nPunhos, cotovelos, ombros, tronco, quadris, joelhos e tornozelos.",
+            "Mobilidade (alongamento por 1'):\nPsoas; Glúteos; Posteriores de Coxa, Adutores (borboleta) e Peito (barriga para baixo deitando em cima do braço)",
+            "Aquecimento Articular:\nPunhos, cotovelos, ombros, tronco, quadris, joelhos e tornozelos.",
+            "Mobilidade (alongamento por 1'):\nPsoas; Glúteos; Posteriores de Coxa, Adutores (borboleta) e Peito (barriga para baixo deitando em cima do braço)",
+            "2 Séries em 8':\n12 Front Squats (barra + elástico médio)\n6 Flexões de Braço\n12 Abdominais Remada\n30\" Prancha Frontal",
+            "4 Séries em 8':\n10 Front Squats (barra + elástico leve)\n5 Flexões de Braço\n15 Abdominais Curtos (Crunch)\n20\" Prancha Frontal",
+            "WOD: 8 ROUNDS\nEMOM 1'ON / 30\"OFF por 12'\n1) 4 Burpees (focando no push, sem \"minhocar\") + 8 Abdominais Remada\n2) 8 Front Squats (barra + elástico médio) + 8 Avanços\n3) Prancha Frontal alternando o levantamento dos pés no chão",
+            "WOD: \nEMOM 45\"ON / 15\"OFF por 12'\n1) 3 Burpee (focando no push, sem \"minhocar\") + 6 Abdominais Remada\n2) Front Squat (barra + elástico pesado)\n3) Prancha Frontal alternando o levantamento dos pés no chão"
+          ],
+          "exercises": []
+        },
+        "C": {
+          "format": "CrossFit",
+          "content": [
+            "TREINO A\nMEMBROS SUPERIORES\nHIPERTROFIA MUSCULAR",
+            "NOME DO ALUNO",
+            "Exercícios",
+            "Método",
+            "Variáveis",
+            "SÉRIE 1",
+            "SÉRIE 2",
+            "SÉRIE 3",
+            "Supino",
+            "Drop-set",
+            "Rep",
+            "Peso",
+            "Pausa",
+            "Cadência",
+            "RIR",
+            "Crucifixo",
+            "Strip-set",
+            "Rep",
+            "Peso",
+            "Pausa",
+            "Cadência",
+            "RIR",
+            "Desenvolvimento",
+            "HIRT",
+            "Rep",
+            "Peso",
+            "Pausa",
+            "Cadência",
+            "RIR",
+            "Elevação lateral",
+            "Drop-set",
+            "Rep",
+            "Peso",
+            "Pausa",
+            "Cadência",
+            "RIR",
+            "Tríceps Testa",
+            "Strip-set",
+            "Rep",
+            "Peso",
+            "Pausa",
+            "Cadência",
+            "RIR",
+            "Tríceps Pulley",
+            "HIRT",
+            "Rep",
+            "Peso",
+            "Pausa",
+            "Cadência",
+            "RIR"
+          ],
+          "exercises": []
+        },
+        "D": {
+          "format": "CrossFit",
+          "content": [
+            "TREINO A\nMEMBROS SUPERIORES\nHIPERTROFIA MUSCULAR",
+            "NOME DO ALUNO",
+            "Exercícios",
+            "Método",
+            "Variáveis",
+            "SÉRIE 1",
+            "SÉRIE 2",
+            "SÉRIE 3",
+            "Supino",
+            "Drop-set",
+            "Rep",
+            "Peso",
+            "Pausa",
+            "Cadência",
+            "RIR",
+            "Crucifixo",
+            "Strip-set",
+            "Rep",
+            "Peso",
+            "Pausa",
+            "Cadência",
+            "RIR",
+            "Desenvolvimento",
+            "HIRT",
+            "Rep",
+            "Peso",
+            "Pausa",
+            "Cadência",
+            "RIR",
+            "Elevação lateral",
+            "Drop-set",
+            "Rep",
+            "Peso",
+            "Pausa",
+            "Cadência",
+            "RIR",
+            "Tríceps Testa",
+            "Strip-set",
+            "Rep",
+            "Peso",
+            "Pausa",
+            "Cadência",
+            "RIR",
+            "Tríceps Pulley",
+            "HIRT",
+            "Rep",
+            "Peso",
+            "Pausa",
+            "Cadência",
+            "RIR"
+          ],
+          "exercises": []
+        },
+        "E": {
+          "format": "CrossFit",
+          "content": [
+            "TREINO A\nMEMBROS SUPERIORES\nHIPERTROFIA MUSCULAR",
+            "NOME DO ALUNO",
+            "Exercícios",
+            "Método",
+            "Variáveis",
+            "SÉRIE 1",
+            "SÉRIE 2",
+            "SÉRIE 3",
+            "Supino",
+            "Drop-set",
+            "Rep",
+            "Peso",
+            "Pausa",
+            "Cadência",
+            "RIR",
+            "Crucifixo",
+            "Strip-set",
+            "Rep",
+            "Peso",
+            "Pausa",
+            "Cadência",
+            "RIR",
+            "Desenvolvimento",
+            "HIRT",
+            "Rep",
+            "Peso",
+            "Pausa",
+            "Cadência",
+            "RIR",
+            "Elevação lateral",
+            "Drop-set",
+            "Rep",
+            "Peso",
+            "Pausa",
+            "Cadência",
+            "RIR",
+            "Tríceps Testa",
+            "Strip-set",
+            "Rep",
+            "Peso",
+            "Pausa",
+            "Cadência",
+            "RIR",
+            "Tríceps Pulley",
+            "HIRT",
+            "Rep",
+            "Peso",
+            "Pausa",
+            "Cadência",
+            "RIR"
+          ],
+          "exercises": []
+        }
+      }
+    },
+    "vitoria_cubas": {
+      "workouts": {
+        "A": {
+          "focus": null,
+          "exercises": [
+            {
+              "name": "Goblet Squat",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "reps": "8 - 12",
+                  "interval": "1'30\"",
+                  "obs": "Segurar 1 Kettlebell com as duas mãos e com a alça para baixo, realizar o agachamento mantendo os cotovelos para frente do tronco"
+                }
+              }
+            },
+            {
+              "name": "Agachamento Búlgaro",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "reps": "12 / 12",
+                  "weight": "8kg",
+                  "interval": "1'"
+                },
+                "serie_4": {
+                  "reps": "X"
+                }
+              }
+            },
+            {
+              "name": "Step Up no Caixote",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "reps": "10 / 10",
+                  "interval": "1'30\""
+                },
+                "serie_4": {
+                  "reps": "X"
+                }
+              }
+            },
+            {
+              "name": "Cadeira Extensora",
+              "method": "DropSet",
+              "series": {
+                "serie_1": {
+                  "reps": "15 + 15",
+                  "interval": "1' - 1'30\"",
+                  "obs": "Fazer o drop de 1 bloco e realizar mais 15 reps"
+                }
+              }
+            },
+            {
+              "name": "CORE: 5x\n Abdominal Curto 20\nDead Bug: 10 Alternando (sem apoiar os pés agora, somente joelhos e tornozelos)",
+              "method": "Tradicional",
+              "series": {}
+            }
+          ]
+        },
+        "B": {
+          "focus": null,
+          "exercises": [
+            {
+              "name": "Puxada Frente Pegada Neutra",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "reps": "8 - 12",
+                  "interval": "1'30"
+                }
+              }
+            },
+            {
+              "name": "Remada Máquina Unilateral",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "reps": "10 / 10",
+                  "interval": "1'30\""
+                }
+              }
+            },
+            {
+              "name": "Crucifixo Inverso Máquina",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "reps": "12 - 15",
+                  "interval": "1'"
+                },
+                "serie_4": {
+                  "reps": "X"
+                }
+              }
+            },
+            {
+              "name": "Pullover na Polia c/ Corda",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "interval": "1'30\"",
+                  "obs": "Polia na altura da cabeça, realizar uma \"parábola\", puxando a corda para baixo e para trás ao fazer o movimento"
+                }
+              }
+            },
+            {
+              "name": "Lombar Banco Romano Isometria",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "reps": "20-30\"",
+                  "weight": "Corporal - Talvez 5-10kg",
+                  "interval": "1'30\""
+                }
+              }
+            }
+          ]
+        },
+        "C": {
+          "focus": null,
+          "exercises": [
+            {
+              "name": "Passada c/ Halteres",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "reps": "15 / 15",
+                  "weight": "Aprox. 8kg cada Halter",
+                  "interval": "1'30\""
+                },
+                "serie_4": {
+                  "reps": "X"
+                }
+              }
+            },
+            {
+              "name": "Cadeira Flexora",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "interval": "1'30"
+                }
+              }
+            },
+            {
+              "name": "Extensão Abdução de Quadril na Polia (altura acima da coxa)",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "reps": "15 / 15",
+                  "interval": "1'30\"",
+                  "obs": "Nosso queridinho do último treino."
+                }
+              }
+            },
+            {
+              "name": "Tríceps Corda Polia Alta",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "interval": "1'30\""
+                },
+                "serie_4": {
+                  "reps": "X"
+                }
+              }
+            },
+            {
+              "name": "Rosca Alternada Halteres",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "reps": "10 / 10",
+                  "interval": "1'30\""
+                },
+                "serie_4": {
+                  "reps": "X"
+                }
+              }
+            },
+            {
+              "name": "Panturrilha em Pé/Leg Press",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "interval": "1'30\""
+                }
+              }
+            }
+          ]
+        },
+        "D": {
+          "focus": null,
+          "exercises": [
+            {
+              "name": "Desenvolvimento de Ombros Halteres",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "interval": "1'30\""
+                }
+              }
+            },
+            {
+              "name": "Elevação Lateral",
+              "method": "Dropset",
+              "series": {
+                "serie_1": {
+                  "reps": "12 + 12",
+                  "weight": "Aprox 5 e 4kg",
+                  "interval": "1'30\""
+                }
+              }
+            },
+            {
+              "name": "Crucifixo Máquina Pegada Neutra",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "reps": "10 - 12",
+                  "interval": "1'30\""
+                }
+              }
+            },
+            {
+              "name": "Supino Máquina",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "reps": "8 - 12",
+                  "interval": "1'30\""
+                }
+              }
+            },
+            {
+              "name": "Tríceps Testa Barra W",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "reps": "8 - 12",
+                  "weight": "Aproximadamente 4~5kg de cada lado.",
+                  "interval": "1'30\""
+                }
+              }
+            }
+          ]
+        },
+        "E": {
+          "focus": null,
+          "exercises": [
+            {
+              "name": "Hip Thrust",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "interval": "1'30"
+                }
+              }
+            },
+            {
+              "name": "Mesa Flexora",
+              "method": "Bi-Set",
+              "series": {
+                "serie_1": {
+                  "reps": "10 - 12",
+                  "interval": "1'30"
+                }
+              }
+            },
+            {
+              "name": "Cadeira Flexora Unilateral",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "reps": "12 / 12",
+                  "interval": "1'30"
+                },
+                "serie_4": {
+                  "reps": "X"
+                }
+              }
+            },
+            {
+              "name": "Pull Through Cabo",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "reps": "10-14",
+                  "interval": "1'30",
+                  "obs": "Polia baixa, começar com o tronco inclinado a frente, estender o quadril movimentando os blocos do crossover com a força dos glúteos, fazer de costas para o crossover e segurando a corda entre as pernas."
+                }
+              }
+            },
+            {
+              "name": "Glúteo Coice Cabo",
+              "method": "Tradicional",
+              "series": {
+                "serie_1": {
+                  "reps": "12 / 12",
+                  "interval": "1'30"
+                },
+                "serie_4": {
+                  "reps": "X"
+                }
+              }
+            },
+            {
+              "name": "CORE:\n4x\n15 Abdominais Remada\n15/15 Prancha Lateral Dinâmica",
+              "method": "Tradicional",
+              "series": {}
+            }
+          ]
+        }
+      }
+    }
+  }
+}
