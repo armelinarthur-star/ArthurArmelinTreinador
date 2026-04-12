@@ -1,52 +1,20 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import { useAuth } from "@/hooks/useAuth";
-import { getDashboardMetrics, getAthletes } from "@/app/actions/athletes";
+import { useDashboardMetrics, useCoachAthletes } from "@/hooks/useQueries";
 import { getGreeting, timeAgo, getInitials } from "@/lib/utils/greeting";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Users, Dumbbell, ClipboardCheck, AlertTriangle } from "lucide-react";
 import Link from "next/link";
 
-interface Metrics {
-  activeAthletes: number;
-  workoutsThisMonth: number;
-  pendingCheckins: number;
-  inactiveAthletes: number;
-}
-
-interface Athlete {
-  id: string;
-  full_name: string;
-  avatar_url: string | null;
-  status: string;
-  last_workout_at: string | null;
-}
-
 export default function CoachDashboardPage() {
   const { profile, isLoading: authLoading } = useAuth();
-  const [metrics, setMetrics] = useState<Metrics | null>(null);
-  const [recentAthletes, setRecentAthletes] = useState<Athlete[]>([]);
-  const [isLoading, setIsLoading] = useState(true);
+  const { data: metrics, isLoading: metricsLoading } = useDashboardMetrics();
+  const { data: athletesData, isLoading: athletesLoading } = useCoachAthletes();
 
-  useEffect(() => {
-    if (!profile) return;
-
-    async function load() {
-      const [metricsData, athletesData] = await Promise.all([
-        getDashboardMetrics(profile!.id),
-        getAthletes(profile!.id),
-      ]);
-      setMetrics(metricsData);
-      setRecentAthletes(athletesData.slice(0, 5));
-      setIsLoading(false);
-    }
-
-    load();
-  }, [profile]);
-
-  const loading = authLoading || isLoading;
+  const loading = authLoading || metricsLoading || athletesLoading;
+  const recentAthletes = (athletesData ?? []).slice(0, 5);
   const firstName = profile?.full_name?.split(" ")[0] ?? "Treinador";
 
   const metricCards = [

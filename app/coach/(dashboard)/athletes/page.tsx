@@ -1,8 +1,8 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useAuth } from "@/hooks/useAuth";
-import { getAthletes } from "@/app/actions/athletes";
+import { useCoachAthletes } from "@/hooks/useQueries";
 import { timeAgo, getInitials } from "@/lib/utils/greeting";
 import { InviteDialog } from "@/components/coach/InviteDialog";
 import { Skeleton } from "@/components/ui/skeleton";
@@ -14,38 +14,15 @@ import { Search } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
-interface Athlete {
-  id: string;
-  full_name: string;
-  email: string;
-  avatar_url: string | null;
-  status: string;
-  last_workout_at: string | null;
-  created_at: string;
-}
-
 type Filter = "all" | "active" | "inactive";
 
 export default function AthletesPage() {
   const { profile, isLoading: authLoading } = useAuth();
-  const [athletes, setAthletes] = useState<Athlete[]>([]);
-  const [isLoading, setIsLoading] = useState(true);
+  const { data: athletes = [], isLoading: athletesLoading } = useCoachAthletes();
   const [search, setSearch] = useState("");
   const [filter, setFilter] = useState<Filter>("all");
 
-  useEffect(() => {
-    if (!profile) return;
-
-    async function load() {
-      const data = await getAthletes(profile!.id);
-      setAthletes(data);
-      setIsLoading(false);
-    }
-
-    load();
-  }, [profile]);
-
-  const loading = authLoading || isLoading;
+  const loading = authLoading || athletesLoading;
 
   const filtered = athletes.filter((a) => {
     const matchesSearch = a.full_name
@@ -110,7 +87,6 @@ export default function AthletesPage() {
           ))}
         </div>
       ) : filtered.length === 0 && athletes.length === 0 ? (
-        /* Empty state */
         <div className="flex flex-col items-center gap-4 rounded-card border border-line-subtle bg-bg-surface py-16">
           <Image
             src="/brand/LOGO04_BRANCO.png"

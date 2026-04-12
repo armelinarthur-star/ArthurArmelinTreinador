@@ -6,6 +6,8 @@ import Link from "next/link";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { createClient } from "@/lib/supabase/client";
+import { useQueryClient } from "@tanstack/react-query";
+import { getDashboardMetrics, getAthletes } from "@/app/actions/athletes";
 import { loginSchema, type LoginValues } from "@/lib/validations/auth";
 import { AuthCard } from "@/components/auth/AuthCard";
 import {
@@ -24,6 +26,7 @@ export default function CoachLoginPage() {
   const [isLoading, setIsLoading] = useState(false);
   const router = useRouter();
   const supabase = createClient();
+  const queryClient = useQueryClient();
 
   const form = useForm<LoginValues>({
     resolver: zodResolver(loginSchema),
@@ -58,6 +61,19 @@ export default function CoachLoginPage() {
       setIsLoading(false);
       return;
     }
+
+    // Prefetch dashboard data before navigating
+    const userId = data.user.id;
+    await Promise.all([
+      queryClient.prefetchQuery({
+        queryKey: ["dashboard-metrics", userId],
+        queryFn: () => getDashboardMetrics(userId),
+      }),
+      queryClient.prefetchQuery({
+        queryKey: ["coach-athletes", userId],
+        queryFn: () => getAthletes(userId),
+      }),
+    ]);
 
     router.push("/coach");
   }

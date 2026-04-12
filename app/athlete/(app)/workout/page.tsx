@@ -1,10 +1,9 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import { useAuth } from "@/hooks/useAuth";
-import { getAthleteWorkouts } from "@/app/actions/athlete";
-import { getAthleteVolumeAnalysis } from "@/app/actions/workouts";
+import { useAthleteWorkouts, useAthleteVolume } from "@/hooks/useQueries";
 import { VolumeChart } from "@/components/charts/VolumeChart";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Badge } from "@/components/ui/badge";
@@ -45,30 +44,13 @@ const statusConfig: Record<string, { label: string; border: string; badge: strin
 };
 
 export default function AthleteWorkoutsPage() {
-  const { profile, isLoading: authLoading } = useAuth();
-  const [workouts, setWorkouts] = useState<WorkoutRow[]>([]);
-  const [volumeData, setVolumeData] = useState<{ muscle_group: string; sets: number }[]>([]);
-  const [isLoading, setIsLoading] = useState(true);
+  const { isLoading: authLoading } = useAuth();
+  const { data: workoutsRaw = [], isLoading: workoutsLoading } = useAthleteWorkouts();
+  const { data: volumeData = [], isLoading: volumeLoading } = useAthleteVolume();
   const [tab, setTab] = useState<TabValue>("week");
 
-  useEffect(() => {
-    if (!profile) return;
-
-    async function load() {
-      setIsLoading(true);
-      const [data, volume] = await Promise.all([
-        getAthleteWorkouts(profile!.id),
-        getAthleteVolumeAnalysis(profile!.id),
-      ]);
-      setWorkouts(data as WorkoutRow[]);
-      setVolumeData(volume);
-      setIsLoading(false);
-    }
-
-    load();
-  }, [profile]);
-
-  const loading = authLoading || isLoading;
+  const loading = authLoading || workoutsLoading || volumeLoading;
+  const workouts = workoutsRaw as WorkoutRow[];
 
   // Filter by tab
   const now = new Date();
@@ -169,9 +151,9 @@ export default function AthleteWorkoutsPage() {
       )}
 
       {/* Volume Chart */}
-      {!loading && volumeData.length > 0 && (
+      {!loading && (volumeData as { muscle_group: string; sets: number }[]).length > 0 && (
         <div className="mt-6">
-          <VolumeChart data={volumeData} title="Meu Volume Semanal" />
+          <VolumeChart data={volumeData as { muscle_group: string; sets: number }[]} title="Meu Volume Semanal" />
         </div>
       )}
     </div>

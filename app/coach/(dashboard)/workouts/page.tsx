@@ -1,10 +1,12 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { useAuth } from "@/hooks/useAuth";
-import { getWorkouts, archiveWorkout, duplicateWorkout } from "@/app/actions/workouts";
+import { useCoachWorkouts } from "@/hooks/useQueries";
+import { archiveWorkout, duplicateWorkout } from "@/app/actions/workouts";
+import { useQueryClient } from "@tanstack/react-query";
 import { getInitials, timeAgo } from "@/lib/utils/greeting";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -46,31 +48,20 @@ const statusColors: Record<string, string> = {
 
 export default function WorkoutsPage() {
   const { profile, isLoading: authLoading } = useAuth();
-  const [workouts, setWorkouts] = useState<WorkoutRow[]>([]);
-  const [isLoading, setIsLoading] = useState(true);
   const [tab, setTab] = useState<TabValue>("active");
+  const { data: workouts = [], isLoading: workoutsLoading } = useCoachWorkouts(tab);
   const router = useRouter();
-
-  useEffect(() => {
-    if (!profile) return;
-    loadWorkouts();
-  }, [profile, tab]);
-
-  async function loadWorkouts() {
-    setIsLoading(true);
-    const data = await getWorkouts(profile!.id, tab);
-    setWorkouts(data as WorkoutRow[]);
-    setIsLoading(false);
-  }
+  const queryClient = useQueryClient();
 
   async function handleArchive(id: string) {
     await archiveWorkout(id);
-    loadWorkouts();
+    queryClient.invalidateQueries({ queryKey: ["coach-workouts"] });
   }
 
   async function handleDuplicate(id: string) {
     if (!profile) return;
     const newId = await duplicateWorkout(id, profile.id);
+    queryClient.invalidateQueries({ queryKey: ["coach-workouts"] });
     router.push(`/coach/workouts/${newId}/edit`);
   }
 
@@ -80,7 +71,7 @@ export default function WorkoutsPage() {
     { label: "Arquivados", value: "archived" },
   ];
 
-  const loading = authLoading || isLoading;
+  const loading = authLoading || workoutsLoading;
 
   return (
     <div className="flex-1 p-6 md:p-8">
@@ -127,7 +118,7 @@ export default function WorkoutsPage() {
             <Skeleton key={i} className="h-20 rounded-card bg-bg-elevated" />
           ))}
         </div>
-      ) : workouts.length === 0 ? (
+      ) : (workouts as WorkoutRow[]).length === 0 ? (
         <div className="rounded-card border border-line-subtle bg-bg-surface py-16 text-center">
           <p className="text-sm text-content-secondary">
             {tab === "active"
@@ -139,7 +130,7 @@ export default function WorkoutsPage() {
         </div>
       ) : (
         <div className="space-y-2">
-          {workouts.map((w) => (
+          {(workouts as WorkoutRow[]).map((w) => (
             <div
               key={w.id}
               className="flex items-center gap-4 rounded-card border border-line-subtle bg-bg-surface p-4"

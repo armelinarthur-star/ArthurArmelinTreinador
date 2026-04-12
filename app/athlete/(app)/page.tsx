@@ -1,13 +1,12 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useAuth } from "@/hooks/useAuth";
 import {
-  getTodayWorkout,
-  getAthleteStreak,
-  getUpcomingWorkouts,
-} from "@/app/actions/athlete";
+  useTodayWorkout,
+  useAthleteStreak,
+  useUpcomingWorkouts,
+} from "@/hooks/useQueries";
 import { getGreeting } from "@/lib/utils/greeting";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Button } from "@/components/ui/button";
@@ -31,30 +30,13 @@ const dayNames = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sáb"];
 
 export default function AthleteHomePage() {
   const { profile, isLoading: authLoading } = useAuth();
-  const [todayWorkout, setTodayWorkout] = useState<TodayWorkout | null>(null);
-  const [streak, setStreak] = useState({ current_streak: 0, longest_streak: 0 });
-  const [upcoming, setUpcoming] = useState<UpcomingWorkout[]>([]);
-  const [isLoading, setIsLoading] = useState(true);
+  const { data: todayWorkout, isLoading: todayLoading } = useTodayWorkout();
+  const { data: streakData, isLoading: streakLoading } = useAthleteStreak();
+  const { data: upcoming = [], isLoading: upcomingLoading } = useUpcomingWorkouts();
 
-  useEffect(() => {
-    if (!profile) return;
-
-    async function load() {
-      const [today, streakData, upcomingData] = await Promise.all([
-        getTodayWorkout(profile!.id),
-        getAthleteStreak(profile!.id),
-        getUpcomingWorkouts(profile!.id),
-      ]);
-      setTodayWorkout(today as TodayWorkout | null);
-      setStreak(streakData);
-      setUpcoming(upcomingData as UpcomingWorkout[]);
-      setIsLoading(false);
-    }
-
-    load();
-  }, [profile]);
-
-  const loading = authLoading || isLoading;
+  const loading = authLoading || todayLoading || streakLoading || upcomingLoading;
+  const streak = streakData ?? { current_streak: 0, longest_streak: 0 };
+  const today = todayWorkout as TodayWorkout | null;
 
   // Streak milestone progress
   const nextMilestone = streak.current_streak < 7 ? 7 : streak.current_streak < 30 ? 30 : 90;
@@ -83,20 +65,20 @@ export default function AthleteHomePage() {
       {/* Today's workout card */}
       {loading ? (
         <Skeleton className="mb-4 h-40 rounded-card bg-bg-elevated" />
-      ) : todayWorkout ? (
+      ) : today ? (
         <div className="mb-4 rounded-card border-l-[3px] border-l-brand-red border border-line-subtle bg-bg-surface p-5">
           <p className="mb-1 font-accent text-xs uppercase tracking-wider text-brand-red">
             Treino de Hoje
           </p>
           <h2 className="mb-2 text-lg font-bold text-content-primary">
-            {todayWorkout.name}
+            {today.name}
           </h2>
           <p className="mb-4 text-xs text-content-secondary">
-            {todayWorkout.workout_exercises.length} exercício
-            {todayWorkout.workout_exercises.length !== 1 && "s"} ·{" "}
-            estimado {todayWorkout.workout_exercises.length * 5} min
+            {today.workout_exercises.length} exercício
+            {today.workout_exercises.length !== 1 && "s"} ·{" "}
+            estimado {today.workout_exercises.length * 5} min
           </p>
-          <Link href={`/athlete/workout/${todayWorkout.id}/log`}>
+          <Link href={`/athlete/workout/${today.id}/log`}>
             <Button className="w-full gap-2 rounded-input bg-brand-red text-white font-semibold hover:bg-brand-red-dark">
               <Dumbbell className="size-4" />
               Iniciar Treino
@@ -155,13 +137,13 @@ export default function AthleteHomePage() {
             ))}
           </div>
         </div>
-      ) : upcoming.length > 0 ? (
+      ) : (upcoming as UpcomingWorkout[]).length > 0 ? (
         <div>
           <h3 className="mb-3 text-sm font-medium text-content-primary">
             Próximos Treinos
           </h3>
           <div className="flex gap-3 overflow-x-auto pb-2 -mx-6 px-6 scrollbar-none">
-            {upcoming.map((w) => {
+            {(upcoming as UpcomingWorkout[]).map((w) => {
               const date = w.scheduled_date
                 ? new Date(w.scheduled_date + "T00:00:00")
                 : null;

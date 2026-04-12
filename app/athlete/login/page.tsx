@@ -5,6 +5,8 @@ import { useRouter } from "next/navigation";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { createClient } from "@/lib/supabase/client";
+import { useQueryClient } from "@tanstack/react-query";
+import { getTodayWorkout, getAthleteStreak, getUpcomingWorkouts } from "@/app/actions/athlete";
 import { loginSchema, type LoginValues } from "@/lib/validations/auth";
 import { AuthCard } from "@/components/auth/AuthCard";
 import {
@@ -23,6 +25,7 @@ export default function AthleteLoginPage() {
   const [isLoading, setIsLoading] = useState(false);
   const router = useRouter();
   const supabase = createClient();
+  const queryClient = useQueryClient();
 
   const form = useForm<LoginValues>({
     resolver: zodResolver(loginSchema),
@@ -57,6 +60,23 @@ export default function AthleteLoginPage() {
       setIsLoading(false);
       return;
     }
+
+    // Prefetch home screen data before navigating
+    const userId = data.user.id;
+    await Promise.all([
+      queryClient.prefetchQuery({
+        queryKey: ["today-workout", userId],
+        queryFn: () => getTodayWorkout(userId),
+      }),
+      queryClient.prefetchQuery({
+        queryKey: ["athlete-streak", userId],
+        queryFn: () => getAthleteStreak(userId),
+      }),
+      queryClient.prefetchQuery({
+        queryKey: ["upcoming-workouts", userId],
+        queryFn: () => getUpcomingWorkouts(userId),
+      }),
+    ]);
 
     router.push("/athlete");
   }
